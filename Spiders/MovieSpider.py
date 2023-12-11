@@ -1,45 +1,75 @@
 import scrapy
 import re
 
+#Clase para extraer los datos de las películas de la página de Metacritic
 class MovieSpider(scrapy.Spider):
+    
+    # Nombre de la araña (spider)
     name = "movie_spider"
+    
+    # URLs de inicio, generadas para obtener datos de películas del año actual en 30 páginas
     start_urls = [f'https://www.metacritic.com/browse/movie/all/all/current-year/?page={page}' for page in range(1, 30)]
+    
+    # Agente de usuario simulando ser un navegador Chrome en Windows
     user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
-    data = [] # Lista para almacenar los datos
+    
+    # Lista para almacenar las películas
+    data = [] 
 
+    # Método para iniciar las solicitudes a cada página y asignar el agente de usuario
     def start_requests(self):
         for url in self.start_urls:
             yield scrapy.Request(url, callback=self.parse, headers={'User-Agent': self.user_agent})
 
+    # Método para analizar la respuesta a la página y seguir los enlaces a las páginas principales de cada película
     def parse(self, response):
         for item in response.css('div.c-finderProductCard'):
             url = item.css('a.c-finderProductCard_container::attr(href)').get()
             if url:
                 yield response.follow(url, self.parse_item)
 
+    # Método para analizar la página principal de una película y extraer la información necesaria
     def parse_item(self, response):
-        def extract_text(selector):
+        
+        # Función interna para extraer texto de un selector con opción de valor por defecto
+        def extract_text(selector, response=response):
             return response.css(selector).get(default='').strip()
-
-        title = extract_text('div.c-productHero_title div::text')
-        metascore = extract_text('div.c-siteReviewScore_background-critic_medium span[data-v-4cdca868]::text')
-        user_score = extract_text('div.c-siteReviewScore_background-user span[data-v-4cdca868]::text')
-        release_date = extract_text('div.c-movieDetails_sectionContainer span.g-text-bold:contains("Release Date") + span::text')
-        duration = extract_text('div.c-movieDetails_sectionContainer span.g-text-bold:contains("Duration") + span::text')
-        user_reviews_text = extract_text('span.c-productScoreInfo_reviewsTotal a span::text')
-        url = response.url + "user-reviews/"
-        if user_reviews_text:
-            user_reviews_number = int(re.search(r'\d+', user_reviews_text).group())
-        if user_score != "tbd" and metascore != "tbd":
-            movie_data = {
-                'title': title,
-                'release_date': release_date,
-                'duration': duration,
-                'metascore': metascore,
-                'user_score': user_score,
-                'user_reviews_number': user_reviews_number,
-                'url': url
-            }
-            self.data.append(movie_data)
+        
+        try:
+            # Extracción de datos de la película
+            title = extract_text('div.c-productHero_title div::text')
+            metascore = extract_text('div.c-siteReviewScore_background-critic_medium span[data-v-4cdca868]::text')
+            user_score = extract_text('div.c-siteReviewScore_background-user span[data-v-4cdca868]::text')
+            release_date = extract_text('div.c-movieDetails_sectionContainer span.g-text-bold:contains("Release Date") + span::text')
+            duration = extract_text('div.c-movieDetails_sectionContainer span.g-text-bold:contains("Duration") + span::text')
+            reviews_text = extract_text('span.c-productScoreInfo_reviewsTotal a span::text')
+            user_url = response.url + "user-reviews/"
+            critic_url = response.url + "critic-reviews/"
+            
+            # Extracción de géneros de la película
+            genres = [extract_text('span.c-globalButton_label::text', genre) for genre in response.css('ul.c-genreList')[-1].css('li')]
+                    
+            # Conteo de la cantidad de reseñas de usuarios y críticos
+            reviews_number = sum(int(re.search(r'\d+', reviews_text).group()) for text in reviews_text if text)             
+            
+            # Verificación de que los puntajes no sean "tbd" (To Be Determined)    
+            if user_score != "tbd" and metascore != "tbd":
+                # Creación de un diccionario con los datos de la película
+                movie_data = {
+                    'title': title,
+                    'release_date': release_date,
+                    'duration': duration,
+                    'metascore': metascore,
+                    'user_score': user_score,
+                    'genres': genres,
+                    'user_reviews_url': user_url,
+                    'critic_reviews_url': critic_url,
+                    'reviews_number': reviews_number
+                }
+                # Agregando los datos de la película a la lista de datos
+                self.data.append(movie_data)
+        # Control de errores
+        except Exception as e:
+            self.log(f"Error processing {response.url}: {str(e)}")
 
 
