@@ -58,6 +58,7 @@ class TvShowsSpider(scrapy.Spider):
                 tvshow_data = {
                     'title': title,
                     'release_date': release_date,
+                    'type': "tvshow",
                     'duration': duration,
                     'metascore': metascore,
                     'user_score': user_score,

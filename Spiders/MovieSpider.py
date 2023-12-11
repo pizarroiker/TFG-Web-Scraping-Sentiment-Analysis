@@ -58,6 +58,7 @@ class MovieSpider(scrapy.Spider):
                 movie_data = {
                     'title': title,
                     'release_date': release_date,
+                    'type': "movie",
                     'duration': duration,
                     'metascore': metascore,
                     'user_score': user_score,
