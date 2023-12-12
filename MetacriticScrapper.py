@@ -1,92 +1,81 @@
-# Description: Este archivo contiene el código para ejecutar las arañas de Scrapy y guardar los datos en un archivo CSV.
-
 from scrapy.crawler import CrawlerProcess
 import pandas as pd
 from Spiders.MovieSpider import MovieSpider
 from Spiders.TVShowsSpider import TvShowsSpider
 from Spiders.ReviewsScrapper import ReviewsScraper
 
+# Constantes
+TOP_ITEMS = 50
+CRAWLER_SETTINGS = {"CONCURRENT_REQUESTS": 32}
+
 def min_converter(duration):
+    """Convierte la duración de la película de formato 'X h Y min' a minutos."""
     if duration:
-        duracion = duration.split()
-        if len(duracion) == 2:
-            if duracion[1] == "h":
-                return int(duracion[0]) * 60
-            elif duracion[1] == "min":
-                return int(duracion[0])
-        elif len(duracion) == 4:
-            return int(duracion[0]) * 60 + int(duracion[2])
+        parts = duration.split()
+        hours = int(parts[0]) * 60 if 'h' in parts else 0
+        minutes = int(parts[parts.index('min') - 1]) if 'min' in parts else 0
+        return hours + minutes
     return None
 
 def run_spiders():
-    # Crear una instancia del proceso Crawler
-    process = CrawlerProcess(settings={
-        "CONCURRENT_REQUESTS": 32,
-    })
-
-    # Agregar los Spiders al proceso
+    """Inicia el proceso de crawling para las arañas especificadas."""
+    process = CrawlerProcess(settings=CRAWLER_SETTINGS)
     process.crawl(MovieSpider)
     process.crawl(TvShowsSpider)
-
-    # Iniciar el proceso, pero detenerlo después de que ambas arañas hayan terminado
     process.start(stop_after_crawl=True)
-    
-if __name__ == "__main__":
-    
-    #-----------------------------------------------------#
-    #           PROCESO DE EXTRACCIóN DE DATOS            #
-    #-----------------------------------------------------#
-    
-    # Ejecutar las arañas
-    run_spiders()
-    
-    # Obtener los datos de ambas arañas
-    movie_data = sorted(MovieSpider.data, key=lambda x: x['reviews_number'], reverse=True)
-    movie_data_df = pd.DataFrame(movie_data).drop(columns=['reviews_number']).head(50)
-    
-    tvshow_data = sorted(TvShowsSpider.data, key=lambda x: x['reviews_number'], reverse=True)
-    tvshow_df = pd.DataFrame(tvshow_data).drop(columns=['reviews_number']).head(50)
 
-    # Combinar los datos en una única estructura de datos
-    df = pd.concat([movie_data_df, tvshow_df], ignore_index=True)
+def get_top_data(spider, columns_to_drop):
+    """Obtiene y procesa los datos de las arañas, retornando un dataframe."""
+    data = sorted(spider.data, key=lambda x: x['reviews_number'], reverse=True)
+    return pd.DataFrame(data).drop(columns=columns_to_drop).head(TOP_ITEMS)
 
-    # Obtener las reseñas de las URLs
-    user_urls = df['user_reviews_url'].tolist()
-    critic_urls = df['critic_reviews_url'].tolist()
-    user_reviews_scraper = ReviewsScraper(user_urls,"user")
-    critic_reviews_scraper = ReviewsScraper(critic_urls,"critic")
-    user_reviews_data = user_reviews_scraper.scrape_urls()
-    critic_reviews_data = critic_reviews_scraper.scrape_urls()
-    user_reviews_df = pd.DataFrame(user_reviews_data, columns=['user_reviews_url', 'user_reviews'])
-    critic_reviews_df = pd.DataFrame(critic_reviews_data, columns=['critic_reviews_url', 'critic_reviews'])
+def merge_dataframes(df1, df2):
+    """Combina dos dataframes en uno solo."""
+    return pd.concat([df1, df2], ignore_index=True)
+
+def scrape_reviews(df):
+    """Obtiene las reseñas de las URLs en el dataframe y las añade al mismo."""
+    user_reviews_scraper = ReviewsScraper(df['user_reviews_url'].tolist(), "user")
+    critic_reviews_scraper = ReviewsScraper(df['critic_reviews_url'].tolist(), "critic")
+
+    user_reviews = user_reviews_scraper.scrape_urls()
+    critic_reviews = critic_reviews_scraper.scrape_urls()
+
+    user_reviews_df = pd.DataFrame(user_reviews, columns=['user_reviews_url', 'user_reviews'])
+    critic_reviews_df = pd.DataFrame(critic_reviews, columns=['critic_reviews_url', 'critic_reviews'])
+
     df = df.merge(user_reviews_df, on='user_reviews_url').drop(columns=['user_reviews_url'])
-    df = df.merge(critic_reviews_df, on='critic_reviews_url').drop(columns=['critic_reviews_url'])
-    
-    #-----------------------------------------------------#
-    #            PROCESO DE LIMPIEZA DE DATOS             #
-    #-----------------------------------------------------#
-    
-    # Convertir las fecha de lanzamiento a formato datetime
-    df["release_date"] = pd.to_datetime(df["release_date"])
-    
-    # Convertir la columna géneros a varias columnas binarias con cada género
-    # De esta manera facilitamos el análisis de los datos por género
-    generos_unicos = set( [genero for lista in df["genres"] for genero in lista] )
-    for genero in generos_unicos:
-        df[genero] = df["genres"].apply(lambda x: 1 if genero in x else 0)
-    df = df.drop('genres', axis=1)
-    
-    # Convertir la duración de los item de tipo película a minutos    
-    df.loc[df['type'] == 'movie', 'duration'] = df.loc[df['type'] == 'movie', 'duration'].apply(min_converter)
-    
-    # Convertir la duración de los item de tipo serie a numero de temporadas
-    df.loc[df['type'] == 'tvshow', 'duration'] = df.loc[df['type'] == 'tvshow', 'duration'].apply(lambda x: int(x.split()[0]))    
+    return df.merge(critic_reviews_df, on='critic_reviews_url').drop(columns=['critic_reviews_url'])
 
-    #-----------------------------------------------------#
-    #            PROCESO DE VOLCADO DE DATOS              #
-    #-----------------------------------------------------#
-    
-    df.to_csv("dataset/movies_and_tvshows.csv", index=False, encoding='utf-8')
+def process_data(df):
+    """Realiza el procesamiento de los datos en el dataframe."""
+    # Convertir fechas a datetime
+    df["release_date"] = pd.to_datetime(df["release_date"])
+
+    # Procesamiento de géneros
+    all_genres = set(genre for genres_list in df["genres"] for genre in genres_list)
+    for genre in all_genres:
+        df[genre] = df["genres"].apply(lambda x: 1 if genre in x else 0)
+    df.drop('genres', axis=1, inplace=True)
+
+    # Conversión de duración
+    df.loc[df['type'] == 'movie', 'duration'] = df.loc[df['type'] == 'movie', 'duration'].apply(min_converter)
+    df.loc[df['type'] == 'tvshow', 'duration'] = df.loc[df['type'] == 'tvshow', 'duration'].apply(lambda x: int(x.split()[0]))
+
+    return df
+
+def save_data(df, filepath="dataset/movies_and_tvshows.csv"):
+    """Guarda el dataframe en un archivo CSV."""
+    df.to_csv(filepath, index=False, encoding='utf-8')
+
+if __name__ == "__main__":
+    run_spiders()
+    movie_df = get_top_data(MovieSpider, ['reviews_number'])
+    tvshow_df = get_top_data(TvShowsSpider, ['reviews_number'])
+    combined_df = merge_dataframes(movie_df, tvshow_df)
+    combined_df = scrape_reviews(combined_df)
+    combined_df = process_data(combined_df)
+    save_data(combined_df)
 
 
 
