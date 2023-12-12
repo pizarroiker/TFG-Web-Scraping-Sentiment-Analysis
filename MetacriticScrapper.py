@@ -1,127 +1,82 @@
+# Importaciones de módulos necesarios
 from scrapy.crawler import CrawlerProcess
 import pandas as pd
 from Spiders.MovieSpider import MovieSpider
 from Spiders.TVShowsSpider import TvShowsSpider
 from Spiders.ReviewsScrapper import ReviewsScraper
 
-# Constantes
-TOP_ITEMS = 50
-CRAWLER_SETTINGS = {"CONCURRENT_REQUESTS": 32}
 
-def min_converter(duration):
-    """
-    Convierte la duración en formato 'X h Y min' a minutos.
-    Args:
-    - duration (str): Duración en formato 'X h Y min' o similar.
-    Returns:
-    - int: Duración en minutos.
-    """
-    if duration:
-        parts = duration.split()
-        hours = int(parts[0]) * 60 if 'h' in parts else 0
-        minutes = int(parts[parts.index('min') - 1]) if 'min' in parts else 0
-        return hours + minutes
-    return None
+# Definición de constantes globales
+TOP_ITEMS = 50                                      # Número máximo de elementos a procesar de cada tipo
+YEAR = 2023                                         # Año para el cual se realizará el scraping
+CRAWLER_SETTINGS = {"CONCURRENT_REQUESTS": 32}      # Configuración para el proceso de crawling
 
+# Función para iniciar el proceso de scraping
 def run_spiders():
-    """
-    Inicia el proceso de scraping usando las arañas definidas en la carpeta scrapper.
-    """
+    # Inicia el proceso de crawling utilizando Scrapy
     process = CrawlerProcess(settings=CRAWLER_SETTINGS)
-    process.crawl(MovieSpider)
-    process.crawl(TvShowsSpider)
+    # Agrega arañas (spiders) para películas y programas de TV
+    process.crawl(MovieSpider, year=YEAR)   
+    process.crawl(TvShowsSpider, year=YEAR)
+    # Inicia el proceso de scraping y se detiene automáticamente después
     process.start(stop_after_crawl=True)
 
-def get_top_data(spider, columns_to_drop):
-    """
-    Obtiene los datos de una araña y retorna un dataframe con los TOP_ITEMS primeros elementos.
-    Args:
-    - spider: Instancia de una araña de Scrapy.
-    - columns_to_drop (list): Columnas a eliminar del dataframe.
-    Returns:
-    - DataFrame: Datos procesados en un dataframe.
-    """
-    data = sorted(spider.data, key=lambda x: x['reviews_number'], reverse=True)
-    return pd.DataFrame(data).drop(columns=columns_to_drop).head(TOP_ITEMS)
+# Función para procesar los datos recopilados por una araña
+def process_spider_data(spider, columns_to_drop):
+    # Crea un DataFrame de pandas a partir de los datos recolectados
+    data = pd.DataFrame(spider.data)
+    # Filtra los datos según la cantidad de reseñas de usuarios y críticos
+    data = data[(data['user_reviews_number'] > 40) & (data['critic_reviews_number'] > 5)]
+    # Elimina las columnas no deseadas
+    data.drop(columns=columns_to_drop, inplace=True, errors='ignore')
+    # Convierte las puntuaciones a números y escala el metascore a un numero entre el 1 y el 10
+    data['metascore'] = pd.to_numeric(data['metascore'], errors='coerce') / 10
+    data['user_score'] = pd.to_numeric(data['user_score'], errors='coerce')
+     # Calcula una puntuación ponderada y la añade al DataFrame
+    data['weighted_score'] = round((data['metascore'] * 0.3) + (data['user_score'] * 0.7), 1)
+    # Ordena los datos y devuelve los mejores elementos
+    return data.sort_values(by='weighted_score', ascending=False).head(TOP_ITEMS)
 
+# Función para combinar dos DataFrames
 def merge_dataframes(df1, df2):
-    """
-    Combina dos dataframes en uno.
-    Args:
-    - df1, df2 (DataFrame): Dataframes a combinar.
-    Returns:
-    - DataFrame: Dataframe combinado.
-    """
+    # Combina dos DataFrames en uno solo
     return pd.concat([df1, df2], ignore_index=True)
 
-def scrape_reviews(df):
-    """
-    Scrapea y agrega reseñas de usuarios y críticos a un dataframe.
-    Args:
-    - df (DataFrame): Dataframe con URLs de reseñas.
-    Returns:
-    - DataFrame: Dataframe actualizado con reseñas.
-    """
-    user_reviews_scraper = ReviewsScraper(df['user_reviews_url'].tolist(), "user")
-    critic_reviews_scraper = ReviewsScraper(df['critic_reviews_url'].tolist(), "critic")
+# Función para raspar reseñas desde URLs proporcionadas
+def scrape_reviews(urls, review_type):
+     # Inicializa el raspador de reseñas con las URLs y el tipo de reseña (usuario o crítico)
+    scraper = ReviewsScraper(urls, review_type)
+    # Realiza el scraping y retorna los resultados como un DataFrame
+    return pd.DataFrame(scraper.scrape_urls(), columns=[f'{review_type}_reviews_url', f'{review_type}_reviews'])
 
-    user_reviews = user_reviews_scraper.scrape_urls()
-    critic_reviews = critic_reviews_scraper.scrape_urls()
-
-    user_reviews_df = pd.DataFrame(user_reviews, columns=['user_reviews_url', 'user_reviews'])
-    critic_reviews_df = pd.DataFrame(critic_reviews, columns=['critic_reviews_url', 'critic_reviews'])
-
+# Función para combinar las reseñas con los datos principales
+def merge_reviews_with_data(df):
+    # Scrapea reseñas de usuarios y críticos y las convierte en DataFrames
+    user_reviews_df = scrape_reviews(df['user_reviews_url'].tolist(), "user")    
+    critic_reviews_df = scrape_reviews(df['critic_reviews_url'].tolist(), "critic")
+    # Combina los DataFrames de reseñas con el DataFrame principal
     df = df.merge(user_reviews_df, on='user_reviews_url').drop(columns=['user_reviews_url'])
     return df.merge(critic_reviews_df, on='critic_reviews_url').drop(columns=['critic_reviews_url'])
 
-def process_data(df):
-    """
-    Procesa los datos del dataframe aplicando varias transformaciones.
-    Args:
-    - df (DataFrame): Dataframe a procesar.
-    Returns:
-    - DataFrame: Dataframe procesado.
-    """
-    # Convertir fechas a datetime
-    df["release_date"] = pd.to_datetime(df["release_date"])
-
-    # Procesamiento de géneros
-    all_genres = set(genre for genres_list in df["genres"] for genre in genres_list)
-    for genre in all_genres:
-        df[genre] = df["genres"].apply(lambda x: 1 if genre in x else 0)
-    df.drop('genres', axis=1, inplace=True)
-
-    # Conversión de duración
-    df.loc[df['type'] == 'movie', 'duration'] = df.loc[df['type'] == 'movie', 'duration'].apply(min_converter)
-    df.loc[df['type'] == 'tvshow', 'duration'] = df.loc[df['type'] == 'tvshow', 'duration'].apply(lambda x: int(x.split()[0]))
-
-    return df
-
+# Función para guardar un DataFrame en un archivo CSV
 def save_data(df, filepath):
-    """
-    Guarda un dataframe en un archivo CSV.
-    Args:
-    - df (DataFrame): Dataframe a guardar.
-    - filepath (str): Ruta del archivo CSV.
-    """
+    # Guarda el DataFrame en un archivo CSV en la ruta especificada
     df.to_csv(filepath, index=False, encoding='utf-8')
 
-
-# PROGRAMA PRINCIPAL
+# Programa principal
 if __name__ == "__main__":
-    
-    # Proceso de scraping
+    # Inicia el proceso de scraping
     run_spiders()
-    movie_df = get_top_data(MovieSpider, ['reviews_number'])
-    tvshow_df = get_top_data(TvShowsSpider, ['reviews_number'])
+    # Procesa los datos recopilados por las arañas
+    movie_df = process_spider_data(MovieSpider, ['user_reviews_number', 'critic_reviews_number'])
+    tvshow_df = process_spider_data(TvShowsSpider, ['user_reviews_number', 'critic_reviews_number'])
+    # Combina los DataFrames de películas y programas de TV
     combined_df = merge_dataframes(movie_df, tvshow_df)
-    combined_df = scrape_reviews(combined_df)
-    
-    # Procesamiento de datos
-    combined_df = process_data(combined_df)
-    
-    # Guardar datos
-    save_data(combined_df,"dataset/movies_and_tvshows.csv")
+    # Combina los DataFrames de reseñas con el DataFrame principal
+    combined_df = merge_reviews_with_data(combined_df)
+    # Guarda el DataFrame combinado en un archivo CSV
+    save_data(combined_df, "dataset/movies_and_tvshows.csv")
+
 
 
 
