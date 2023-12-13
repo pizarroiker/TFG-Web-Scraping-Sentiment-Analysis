@@ -8,7 +8,7 @@ class MovieSpider(scrapy.Spider):
 
     def __init__(self, year):
         self.year = year
-        self.start_urls = [f'https://www.metacritic.com/browse/movie/all/all/{self.year}/?page={page}' for page in range(1, 30)]
+        self.start_urls = [f'https://www.metacritic.com/browse/movie/all/all/{self.year}/new/?page={page}' for page in range(1, 30)]
     
     def start_requests(self):
         for url in self.start_urls:
@@ -44,8 +44,8 @@ class MovieSpider(scrapy.Spider):
             critic_reviews_number=0
             user_reviews_number=0
             if reviews_text and len(reviews_text) > 1:
-                critic_reviews_number = int(re.search(r'\d+', reviews_text[0]).group())
-                user_reviews_number = int(re.search(r'\d+', reviews_text[1]).group())
+                critic_reviews_number = int(re.search(r'[\d,]+', reviews_text[0]).group().replace(',', ''))
+                user_reviews_number = int(re.search(r'[\d,]+', reviews_text[1]).group().replace(',', ''))
             
             if user_score != "tbd" and metascore != "tbd":
                 movie_data = {
