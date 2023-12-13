@@ -7,7 +7,7 @@ from Spiders.ReviewsScrapper import ReviewsScraper
 
 
 # Definición de constantes globales
-TOP_ITEMS = 50                                      # Número máximo de elementos a procesar de cada tipo
+TOP_ITEMS = 5                                       # Número máximo de elementos a procesar de cada tipo
 YEAR = 2023                                         # Año para el cual se realizará el scraping
 CRAWLER_SETTINGS = {"CONCURRENT_REQUESTS": 32}      # Configuración para el proceso de crawling
 
@@ -22,11 +22,15 @@ def run_spiders():
     process.start(stop_after_crawl=True)
 
 # Función para procesar los datos recopilados por una araña
-def process_spider_data(spider, columns_to_drop):
+def process_spider_data_reviews(spider, columns_to_drop):
     # Crea un DataFrame de pandas a partir de los datos recolectados
     data = pd.DataFrame(spider.data)
-    # Filtra los datos según la cantidad de reseñas de usuarios y críticos
-    data = data[(data['user_reviews_number'] > 40) & (data['critic_reviews_number'] > 5)]
+    
+    # Convierte la fecha de lanzamiento a un formato de fecha
+    data["release_date"] = pd.to_datetime(data["release_date"], format="mixed")
+    
+    # Filtra los datos según la cantidad de reseñas de usuarios y críticos, y limpiar valores atipicos de la fecha de lanzamiento
+    data = data[(data['user_reviews_number'] > 20) & (data['critic_reviews_number'] > 5) & (data["release_date"].dt.year == YEAR)]
     # Elimina las columnas no deseadas
     data.drop(columns=columns_to_drop, inplace=True, errors='ignore')
     # Convierte las puntuaciones a números y escala el metascore a un numero entre el 1 y el 10
@@ -36,6 +40,27 @@ def process_spider_data(spider, columns_to_drop):
     data['weighted_score'] = round((data['metascore'] * 0.3) + (data['user_score'] * 0.7), 1)
     # Ordena los datos y devuelve los mejores elementos
     return data.sort_values(by='weighted_score', ascending=False).head(TOP_ITEMS)
+
+def process_spider_data(spider, columns_to_drop):
+    # Crea un DataFrame de pandas a partir de los datos recolectados
+    data = pd.DataFrame(spider.data)
+    
+    # Convierte la fecha de lanzamiento a un formato de fecha
+    data["release_date"] = pd.to_datetime(data["release_date"], format="mixed")
+    
+    # Limpiar valores atipicos de la fecha de lanzamiento
+    data = data[(data["release_date"].dt.year == YEAR)]
+    
+    # Elimina las columnas no deseadas
+    data.drop(columns=columns_to_drop, inplace=True, errors='ignore')
+    
+    # Convierte las puntuaciones a números y escala el metascore a un numero entre el 1 y el 10
+    data['metascore'] = pd.to_numeric(data['metascore'], errors='coerce') / 10
+    data['user_score'] = pd.to_numeric(data['user_score'], errors='coerce')
+     # Calcula una puntuación ponderada y la añade al DataFrame
+    data['weighted_score'] = round((data['metascore'] * 0.3) + (data['user_score'] * 0.7), 1)
+    # Ordena los datos y devuelve los mejores elementos
+    return data.sort_values(by='weighted_score', ascending=False)
 
 # Función para combinar dos DataFrames
 def merge_dataframes(df1, df2):
@@ -67,16 +92,19 @@ def save_data(df, filepath):
 if __name__ == "__main__":
     # Inicia el proceso de scraping
     run_spiders()
-    # Procesa los datos recopilados por las arañas
-    movie_df = process_spider_data(MovieSpider, ['user_reviews_number', 'critic_reviews_number'])
-    tvshow_df = process_spider_data(TvShowsSpider, ['user_reviews_number', 'critic_reviews_number'])
+    # Procesa los datos recopilados por las arañas para películas y programas de TV para su análisis
+    movie_df = process_spider_data(MovieSpider, ['user_reviews_number', 'critic_reviews_number', 'user_reviews_url', 'critic_reviews_url'])
+    tvshow_df = process_spider_data(TvShowsSpider, ['user_reviews_number', 'critic_reviews_number', 'user_reviews_url', 'critic_reviews_url'])
+    # Procesa los datos recopilados por las arañas para películas y programas de TV para la posterior incorporación de reseñas
+    movie_reviews_df = process_spider_data_reviews(MovieSpider, ['user_reviews_number', 'critic_reviews_number'])
+    tvshow__reviews_df = process_spider_data_reviews(TvShowsSpider, ['user_reviews_number', 'critic_reviews_number'])
     # Combina los DataFrames de películas y programas de TV
     combined_df = merge_dataframes(movie_df, tvshow_df)
+    #Combina los DataFrames de películas y programas de TV para la posterior incorporación de reseñas
+    combined_reviews_df = merge_dataframes(movie_reviews_df, tvshow__reviews_df)
     # Combina los DataFrames de reseñas con el DataFrame principal
-    combined_df = merge_reviews_with_data(combined_df)
-    # Guarda el DataFrame combinado en un archivo CSV
+    combined_reviews_df = merge_reviews_with_data(combined_reviews_df)
+    # Guarda el DataFrame combinado de películas y series en un archivo CSV
     save_data(combined_df, "dataset/movies_and_tvshows.csv")
-
-
-
-
+    # Guarda el DataFrame combinado de películas, series y reseñas en un archivo CSV
+    save_data(combined_reviews_df, "dataset/top_items_reviews.csv")
