@@ -21,7 +21,7 @@ class ReviewsScraper:
     def scrape_reviews(self, url, driver, max_reviews=20, target_language='en'):
         driver.get(url)
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div.c-siteReview.g-bg-gray10')))
-        reviews = set()
+        reviews = []
         review_elements = driver.find_elements(By.CSS_SELECTOR,'div.c-siteReview.g-bg-gray10')
         
         for review_element in review_elements:
@@ -31,7 +31,7 @@ class ReviewsScraper:
             if self.is_valid_review(text, score):
                 detected_language = self.safe_language_detection(text)
                 if detected_language == target_language:
-                    reviews.add((score, text))
+                    reviews.append((score, text))
         return reviews
 
     def extract_review_data(self, review_element):

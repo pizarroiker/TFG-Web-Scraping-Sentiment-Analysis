@@ -21,8 +21,8 @@ class TvShowsSpider(scrapy.Spider):
                 yield response.follow(url, self.parse_item)
 
     def parse_item(self, response):
-        def extract_text(selector, default=''):
-            return response.css(selector).get(default=default).strip()
+        def extract_text(selector, response=response):
+            return response.css(selector).get('').strip()
 
         try:
             title_selector = 'div.c-productHero_title div::text'
@@ -39,7 +39,7 @@ class TvShowsSpider(scrapy.Spider):
             release_date = extract_text(release_date_selector)
             duration = extract_text(duration_selector)
             reviews_text = response.css(reviews_text_selector).getall()
-            genres = [extract_text(genre_selector, genre) for genre in response.css('ul.c-genreList')[-1].css('li')]
+            genres = {extract_text(genre_selector,genre) for genre in response.css('ul.c-genreList').css('li')}
 
             critic_reviews_number=0
             user_reviews_number=0
