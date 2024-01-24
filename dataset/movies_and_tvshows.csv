@@ -1,483 +1,514 @@
 title,release_date,type,duration,metascore,user_score,genres,weighted_score
-j-hope IN THE BOX,2023-02-17,movie,1 h 25 m,8.3,9.9,"{'Documentary', 'Music'}",9.4
-Joan Baez I Am A Noise,2023-10-06,movie,1 h 53 m,7.7,9.8,"{'Documentary', 'Biography', 'Music'}",9.2
+Joan Baez I Am A Noise,2023-10-06,movie,1 h 53 m,7.5,9.8,"{'Documentary', 'Biography', 'Music'}",9.1
 The Eternal Memory,2023-08-11,movie,1 h 25 m,8.4,9.3,{'Documentary'},9.0
 SUGA: Road to D-DAY,2023-04-21,movie,1 h 20 m,9.1,8.9,"{'Documentary', 'Biography', 'Music'}",9.0
-The Persian Version,2023-10-20,movie,1 h 47 m,6.1,10.0,"{'Comedy', 'Romance', 'Drama'}",8.8
-Oppenheimer,2023-07-21,movie,3 h,8.9,8.7,"{'History', 'Biography', 'Drama'}",8.8
-Renaissance: A Film by Beyoncé,2023-12-01,movie,2 h 49 m,8.6,8.9,"{'Documentary', 'Music'}",8.8
+Leo,2023-10-18,movie,2 h 44 m,8.0,9.3,"{'Action', 'Crime', 'Thriller', 'Drama'}",8.9
+The Zone of Interest,2023-12-15,movie,1 h 45 m,9.0,8.8,"{'History', 'War', 'Drama'}",8.9
+All of Us Strangers,2023-12-22,movie,1 h 45 m,8.9,8.7,"{'Fantasy', 'Romance', 'Drama'}",8.8
 Chantilly Bridge,2023-03-24,movie,1 h 26 m,7.5,9.3,{'Drama'},8.8
-Fallen Leaves,2023-11-17,movie,1 h 21 m,8.7,8.7,"{'Comedy', 'Drama'}",8.7
+Summoning Sylvia,2023-03-31,movie,1 h 14 m,7.5,9.3,"{'Comedy', 'Horror', 'Thriller'}",8.8
+Renaissance: A Film by Beyoncé,2023-12-01,movie,2 h 49 m,8.6,8.9,"{'Documentary', 'Music'}",8.8
+Oppenheimer,2023-07-21,movie,3 h,8.9,8.7,"{'Biography', 'History', 'Drama'}",8.8
+Occupied City,2023-12-24,movie,4 h 6 m,7.5,9.2,"{'Documentary', 'History', 'War'}",8.7
+The Teachers' Lounge,2023-12-25,movie,1 h 38 m,8.4,8.7,{'Drama'},8.6
 Past Lives,2023-06-02,movie,1 h 45 m,9.4,8.2,"{'Romance', 'Drama'}",8.6
-Monster,2023-11-22,movie,2 h 6 m,8.1,8.7,"{'Thriller', 'Drama'}",8.5
-Spider-Man: Across the Spider-Verse,2023-06-02,movie,2 h 20 m,8.6,8.3,"{'Sci-Fi', 'Family', 'Fantasy', 'Adventure', 'Animation', 'Action'}",8.4
-Anatomy of a Fall,2023-10-13,movie,2 h 31 m,8.6,8.1,"{'Drama', 'Thriller', 'Crime'}",8.2
-Killers of the Flower Moon,2023-10-20,movie,3 h 26 m,8.9,7.9,"{'Mystery', 'Drama', 'History', 'Romance', 'Western', 'Crime'}",8.2
+Spider-Man: Across the Spider-Verse,2023-06-02,movie,2 h 20 m,8.6,8.4,"{'Animation', 'Sci-Fi', 'Family', 'Action', 'Adventure', 'Fantasy'}",8.5
+All Dirt Roads Taste of Salt,2023-11-03,movie,1 h 32 m,8.7,8.4,{'Drama'},8.5
+Monster,2023-11-22,movie,2 h 7 m,8.1,8.3,"{'Thriller', 'Drama'}",8.2
+The Iron Claw,2023-12-22,movie,2 h 12 m,7.3,8.4,"{'Sport', 'Biography', 'Drama'}",8.1
 Still: A Michael J. Fox Movie,2023-05-12,movie,1 h 35 m,7.8,8.2,"{'Documentary', 'Biography'}",8.1
-Poor Things,2023-12-08,movie,2 h 21 m,8.7,7.8,"{'Comedy', 'Romance', 'Sci-Fi', 'Drama'}",8.1
-Mission: Impossible – Dead Reckoning Part One,2023-07-12,movie,2 h 43 m,8.1,8.1,"{'Adventure', 'Action', 'Thriller'}",8.1
-John Wick: Chapter 4,2023-03-24,movie,2 h 49 m,7.8,8.1,"{'Action', 'Thriller', 'Crime'}",8.0
-Godzilla Minus One,2023-12-01,movie,2 h 4 m,7.9,8.1,"{'Sci-Fi', 'Drama', 'Adventure', 'Action', 'Horror'}",8.0
-The Holdovers,2023-10-27,movie,2 h 13 m,8.2,7.8,"{'Comedy', 'Drama'}",7.9
+Killers of the Flower Moon,2023-10-20,movie,3 h 26 m,8.9,7.7,"{'Romance', 'Drama', 'Mystery', 'Crime', 'History', 'Western'}",8.1
+The Holdovers,2023-10-27,movie,2 h 13 m,8.2,7.9,"{'Comedy', 'Drama'}",8.0
+Poor Things,2023-12-08,movie,2 h 21 m,8.7,7.7,"{'Sci-Fi', 'Comedy', 'Romance', 'Drama'}",8.0
+John Wick: Chapter 4,2023-03-24,movie,2 h 49 m,7.8,8.1,"{'Action', 'Crime', 'Thriller'}",8.0
+Fallen Leaves,2023-11-17,movie,1 h 21 m,8.6,7.7,"{'Comedy', 'Drama'}",8.0
+The Persian Version,2023-10-20,movie,1 h 47 m,6.1,8.8,"{'Comedy', 'Romance', 'Drama'}",8.0
+Mission: Impossible – Dead Reckoning Part One,2023-07-12,movie,2 h 43 m,8.1,8.0,"{'Action', 'Adventure', 'Thriller'}",8.0
 "Are You There God? It's Me, Margaret",2023-04-28,movie,1 h 46 m,8.4,7.7,"{'Comedy', 'Family', 'Drama'}",7.9
-The Inventor,2023-09-15,movie,1 h 40 m,6.7,8.4,"{'Adventure', 'Animation', 'Comedy', 'Family'}",7.9
-Reality,2023-05-29,movie,1 h 23 m,8.4,7.6,{'Drama'},7.8
+Anatomy of a Fall,2023-10-13,movie,2 h 31 m,8.6,7.6,"{'Crime', 'Thriller', 'Drama'}",7.9
+The Boy and the Heron,2023-11-22,movie,2 h 4 m,9.1,7.4,"{'Animation', 'Family', 'Drama', 'Adventure', 'Fantasy'}",7.9
+Society of the Snow,2023-12-22,movie,2 h 24 m,7.2,8.2,"{'Adventure', 'History', 'Thriller', 'Drama'}",7.9
 The Venture Bros.: Radiant Is the Blood of the Baboon Heart,2023-07-21,movie,1 h 23 m,8.4,7.5,{'Animation'},7.8
-Jawan,2023-09-07,movie,2 h 49 m,8.5,7.3,"{'Action', 'Thriller'}",7.7
-The Wonderful Story of Henry Sugar,2023-09-20,movie,37 m,8.5,7.3,"{'Adventure', 'Comedy', 'Unknown', 'Drama'}",7.7
-The Boy and the Heron,2023-11-22,movie,2 h 4 m,9.2,7.1,"{'Family', 'Fantasy', 'Drama', 'Adventure', 'Animation'}",7.7
+Reality,2023-05-29,movie,1 h 23 m,8.4,7.6,{'Drama'},7.8
+The Wonderful Story of Henry Sugar,2023-09-20,movie,37 m,8.5,7.4,"{'Drama', 'Unknown', 'Adventure', 'Comedy'}",7.7
+Memory,2023-12-22,movie,1 h 39 m,7.1,7.9,{'Drama'},7.7
 Albert Brooks: Defending My Life,2023-11-11,movie,1 h 28 m,7.4,7.8,"{'Documentary', 'Biography'}",7.7
-Summoning Sylvia,2023-03-31,movie,1 h 14 m,7.5,7.8,"{'Comedy', 'Thriller', 'Horror'}",7.7
-Rock Hudson: All That Heaven Allowed,2023-06-28,movie,1 h 44 m,7.1,7.8,{'Documentary'},7.6
-Taylor Swift: The Eras Tour,2023-10-13,movie,2 h 49 m,8.3,7.1,"{'Documentary', 'Music'}",7.5
-Nimona,2023-06-23,movie,1 h 41 m,7.5,7.3,"{'Sci-Fi', 'Family', 'Fantasy', 'Comedy', 'Thriller', 'Drama', 'Adventure', 'Animation', 'Action'}",7.4
-Hidden Blade,2023-02-17,movie,2 h 8 m,5.9,8.0,"{'History', 'Thriller', 'Drama'}",7.4
-Milli Vanilli,2023-10-24,movie,1 h 46 m,7.2,7.5,"{'Documentary', 'Biography', 'Music'}",7.4
-Guardians of the Galaxy Vol. 3,2023-05-05,movie,2 h 30 m,6.4,7.9,"{'Adventure', 'Comedy', 'Action', 'Sci-Fi'}",7.4
-Dungeons & Dragons: Honor Among Thieves,2023-03-31,movie,2 h 14 m,7.2,7.5,"{'Adventure', 'Comedy', 'Action', 'Fantasy'}",7.4
+The Inventor,2023-09-15,movie,1 h 40 m,6.7,8.0,"{'Animation', 'Adventure', 'Family', 'Comedy'}",7.6
+Perfect Days,2023-11-10,movie,2 h 3 m,7.3,7.6,{'Drama'},7.5
+Taylor Swift: The Eras Tour,2023-10-13,movie,2 h 49 m,8.3,7.2,"{'Documentary', 'Music'}",7.5
 birth/rebirth,2023-08-18,movie,1 h 41 m,7.8,7.3,"{'Horror', 'Thriller', 'Drama'}",7.4
-The Pigeon Tunnel,2023-10-20,movie,1 h 32 m,7.9,7.0,{'Documentary'},7.3
-The Deepest Breath,2023-07-19,movie,1 h 48 m,6.9,7.5,"{'Documentary', 'Adventure', 'Sport'}",7.3
+BlackBerry,2023-05-12,movie,2 h,7.8,7.2,"{'Drama', 'Biography', 'History', 'Comedy'}",7.4
+Nimona,2023-06-23,movie,1 h 41 m,7.5,7.3,"{'Animation', 'Sci-Fi', 'Family', 'Drama', 'Action', 'Adventure', 'Comedy', 'Thriller', 'Fantasy'}",7.4
+Dungeons & Dragons: Honor Among Thieves,2023-03-31,movie,2 h 14 m,7.2,7.5,"{'Action', 'Adventure', 'Fantasy', 'Comedy'}",7.4
+Tiger 3,2023-11-11,movie,2 h 34 m,6.3,7.8,"{'Action', 'Adventure', 'Thriller'}",7.4
+The Color Purple,2023-12-25,movie,2 h 21 m,7.3,7.5,"{'Musical', 'Drama'}",7.4
+Rock Hudson: All That Heaven Allowed,2023-06-28,movie,1 h 44 m,7.1,7.6,{'Documentary'},7.4
+Bank of Dave,2023-08-25,movie,1 h 47 m,6.0,8.0,"{'Drama', 'Biography', 'Comedy'}",7.4
+Guardians of the Galaxy Vol. 3,2023-05-05,movie,2 h 30 m,6.4,7.9,"{'Sci-Fi', 'Action', 'Adventure', 'Comedy'}",7.4
+Fremont,2023-08-25,movie,1 h 31 m,7.2,7.5,{'Drama'},7.4
+Shin Kamen Rider,2023-05-31,movie,2 h 1 m,8.8,6.8,"{'Drama', 'Action', 'Adventure', 'Fantasy', 'Sci-Fi'}",7.4
+The Delinquents,2023-10-18,movie,3 h 9 m,8.6,6.7,"{'Drama', 'Comedy', 'Crime'}",7.3
 Wham!,2023-07-05,movie,1 h 32 m,7.3,7.3,"{'Documentary', 'Biography', 'Music'}",7.3
-Shin Kamen Rider,2023-05-31,movie,2 h 1 m,8.8,6.6,"{'Sci-Fi', 'Fantasy', 'Drama', 'Adventure', 'Action'}",7.3
-Tetris,2023-03-24,movie,1 h 58 m,6.1,7.8,"{'History', 'Biography', 'Thriller', 'Drama'}",7.3
-Dream Scenario,2023-11-10,movie,1 h 42 m,7.4,7.2,"{'Comedy', 'Horror'}",7.3
-BlackBerry,2023-05-12,movie,2 h,7.8,7.1,"{'History', 'Biography', 'Comedy', 'Drama'}",7.3
-AKA,2023-04-28,movie,2 h 2 m,6.5,7.5,"{'Action', 'Thriller', 'Crime'}",7.2
-Flora and Son,2023-09-22,movie,1 h 37 m,7.6,7.0,"{'Comedy', 'Music', 'Romance'}",7.2
-The Super Mario Bros. Movie,2023-04-05,movie,1 h 32 m,4.6,8.3,"{'Family', 'Fantasy', 'Comedy', 'Adventure', 'Animation'}",7.2
-May December,2023-11-17,movie,1 h 57 m,8.5,6.7,"{'Comedy', 'Drama'}",7.2
-Scrapper,2023-08-25,movie,1 h 24 m,7.4,7.1,"{'Comedy', 'Drama'}",7.2
+Rye Lane,2023-03-31,movie,1 h 22 m,8.2,6.9,"{'Comedy', 'Romance', 'Drama'}",7.3
+The Crime Is Mine,2023-12-25,movie,1 h 42 m,7.2,7.4,"{'Comedy', 'Crime'}",7.3
+The Pigeon Tunnel,2023-10-20,movie,1 h 32 m,7.9,7.0,"{'Documentary', 'Biography'}",7.3
+Tetris,2023-03-24,movie,1 h 58 m,6.1,7.8,"{'Biography', 'History', 'Thriller', 'Drama'}",7.3
+Ferrari,2023-12-25,movie,2 h 10 m,7.2,7.3,"{'Biography', 'History', 'Drama'}",7.3
+When Evil Lurks,2023-10-06,movie,1 h 39 m,7.5,7.2,{'Horror'},7.3
+Milli Vanilli,2023-10-24,movie,1 h 46 m,7.2,7.4,"{'Documentary', 'Biography', 'Music'}",7.3
+20 Days in Mariupol,2023-07-14,movie,1 h 35 m,8.4,6.8,"{'Documentary', 'War'}",7.3
+The Peasants,2023-12-08,movie,1 h 54 m,6.6,7.6,"{'Animation', 'History', 'Drama'}",7.3
+The Deepest Breath,2023-07-19,movie,1 h 48 m,6.9,7.5,"{'Documentary', 'Sport', 'Adventure'}",7.3
+May December,2023-11-17,movie,1 h 57 m,8.6,6.7,"{'Comedy', 'Drama'}",7.3
+American Fiction,2023-12-15,movie,1 h 57 m,8.2,6.8,"{'Comedy', 'Drama'}",7.2
+AKA,2023-04-28,movie,2 h 2 m,6.5,7.5,"{'Action', 'Crime', 'Thriller'}",7.2
+The Super Mario Bros. Movie,2023-04-05,movie,1 h 32 m,4.6,8.3,"{'Animation', 'Family', 'Adventure', 'Comedy', 'Fantasy'}",7.2
 Air,2023-04-05,movie,1 h 51 m,7.3,7.2,"{'Sport', 'Drama'}",7.2
-Rye Lane,2023-03-31,movie,1 h 22 m,8.3,6.8,"{'Comedy', 'Romance', 'Drama'}",7.2
-A Million Miles Away,2023-09-15,movie,2 h 1 m,6.2,7.7,"{'Biography', 'Drama'}",7.2
-When Evil Lurks,2023-10-06,movie,1 h 39 m,7.5,7.1,{'Horror'},7.2
+Flora and Son,2023-09-22,movie,1 h 37 m,7.6,7.0,"{'Romance', 'Comedy', 'Music'}",7.2
 Circus Maximus,2023-07-27,movie,1 h 15 m,5.0,8.0,{'Music'},7.1
-Stephen Curry: Underrated,2023-07-21,movie,1 h 50 m,6.9,7.2,"{'Documentary', 'Biography', 'Sport'}",7.1
+The Starling Girl,2023-05-12,movie,1 h 57 m,7.8,6.8,{'Drama'},7.1
+Scrapper,2023-08-25,movie,1 h 24 m,7.4,7.0,"{'Comedy', 'Drama'}",7.1
 Being Mary Tyler Moore,2023-05-26,movie,1 h 59 m,6.6,7.3,{'Documentary'},7.1
-The Peasants,2023-12-08,movie,1 h 54 m,6.6,7.3,"{'History', 'Animation', 'Drama'}",7.1
-Priscilla,2023-10-27,movie,1 h 53 m,7.8,6.8,"{'Romance', 'Biography', 'Music', 'Drama'}",7.1
-The Adults,2023-08-18,movie,1 h 31 m,7.3,7.0,"{'Comedy', 'Drama'}",7.1
-Bottoms,2023-08-25,movie,1 h 31 m,7.4,7.0,{'Comedy'},7.1
-20 Days in Mariupol,2023-07-14,movie,1 h 35 m,8.4,6.4,"{'Documentary', 'War'}",7.0
-Creed III,2023-03-03,movie,1 h 56 m,7.3,6.8,"{'Sport', 'Drama'}",7.0
-The Shift,2023-12-01,movie,1 h 55 m,4.0,8.3,{'Sci-Fi'},7.0
-Lady Ballers,2023-12-01,movie,1 h 52 m,2.5,9.0,"{'Comedy', 'Sport'}",7.0
-The Caine Mutiny Court-Martial,2023-10-06,movie,1 h 48 m,7.1,7.0,"{'War', 'Drama'}",7.0
-The Killer,2023-10-27,movie,1 h 58 m,7.3,6.8,"{'Mystery', 'Thriller', 'Drama', 'Adventure', 'Action', 'Crime'}",7.0
-The Delinquents,2023-10-18,movie,3 h 9 m,8.6,6.2,"{'Comedy', 'Drama', 'Crime'}",6.9
+Leo,2023-11-17,movie,1 h 42 m,6.5,7.3,"{'Animation', 'Comedy', 'Family', 'Musical'}",7.1
+Migration,2023-12-22,movie,1 h 23 m,5.6,7.7,"{'Animation', 'Family', 'Action', 'Adventure', 'Comedy', 'Fantasy'}",7.1
+Jawan,2023-09-07,movie,2 h 49 m,8.5,6.5,"{'Action', 'Thriller'}",7.1
+Stephen Curry: Underrated,2023-07-21,movie,1 h 50 m,6.9,7.2,"{'Documentary', 'Sport', 'Biography'}",7.1
+A Million Miles Away,2023-09-15,movie,2 h 1 m,6.2,7.5,"{'Biography', 'Drama'}",7.1
+Dream Scenario,2023-11-10,movie,1 h 42 m,7.4,7.0,"{'Comedy', 'Horror'}",7.1
+The Adults,2023-08-18,movie,1 h 31 m,7.3,6.8,"{'Comedy', 'Drama'}",7.0
+Dashing Through the Snow,2023-11-17,movie,1 h 32 m,6.0,7.5,"{'Comedy', 'Family', 'Fantasy'}",7.0
+Theater Camp,2023-07-14,movie,1 h 32 m,7.0,7.0,{'Comedy'},7.0
+The Three Musketeers - Part I: D'Artagnan,2023-12-08,movie,2 h 1 m,7.8,6.7,"{'Action', 'Adventure', 'History'}",7.0
+Diary of a Wimpy Kid Christmas: Cabin Fever,2023-12-08,movie,1 h 2 m,8.0,6.5,"{'Animation', 'Adventure', 'Family', 'Comedy'}",7.0
+Bottoms,2023-08-25,movie,1 h 31 m,7.4,6.8,{'Comedy'},7.0
+Priscilla,2023-10-27,movie,1 h 53 m,7.9,6.6,"{'Romance', 'Biography', 'Music', 'Drama'}",7.0
+The Killer,2023-10-27,movie,1 h 58 m,7.3,6.8,"{'Drama', 'Action', 'Adventure', 'Mystery', 'Crime', 'Thriller'}",7.0
+The Taste of Things,2023-12-13,movie,2 h 15 m,8.3,6.3,"{'History', 'Romance', 'Drama'}",6.9
 You Hurt My Feelings,2023-05-26,movie,1 h 33 m,8.0,6.4,"{'Comedy', 'Drama'}",6.9
-Asteroid City,2023-06-16,movie,1 h 45 m,7.5,6.7,"{'Comedy', 'Romance', 'Sci-Fi', 'Drama'}",6.9
-Shooting Stars,2023-06-02,movie,1 h 56 m,6.2,7.2,"{'History', 'Biography', 'Sport', 'Drama'}",6.9
-Theater Camp,2023-07-14,movie,1 h 32 m,7.0,6.9,{'Comedy'},6.9
-Afire,2023-07-14,movie,1 h 42 m,8.2,6.3,"{'Comedy', 'Romance', 'Drama'}",6.9
-The Burial,2023-10-06,movie,2 h 6 m,7.4,6.6,{'Drama'},6.8
-Little Richard: I Am Everything,2023-04-21,movie,1 h 41 m,8.1,6.3,"{'Documentary', 'Biography', 'Music', 'History'}",6.8
-Guy Ritchie’s The Covenant,2023-04-21,movie,2 h 3 m,6.3,7.0,"{'Action', 'War', 'Thriller', 'Drama'}",6.8
-Evil Dead Rise,2023-04-21,movie,1 h 36 m,6.9,6.8,{'Horror'},6.8
-The Starling Girl,2023-05-12,movie,1 h 57 m,7.8,6.4,{'Drama'},6.8
+Shooting Stars,2023-06-02,movie,1 h 56 m,6.2,7.2,"{'Sport', 'Biography', 'History', 'Drama'}",6.9
+Passages,2023-08-04,movie,1 h 31 m,8.0,6.4,"{'Romance', 'Drama'}",6.9
+Asteroid City,2023-06-16,movie,1 h 45 m,7.5,6.7,"{'Sci-Fi', 'Comedy', 'Romance', 'Drama'}",6.9
+Evil Dead Rise,2023-04-21,movie,1 h 36 m,6.9,6.9,{'Horror'},6.9
+The Burial,2023-10-06,movie,2 h 6 m,7.4,6.7,{'Drama'},6.9
+Little Richard: I Am Everything,2023-04-21,movie,1 h 41 m,8.1,6.3,"{'Documentary', 'Biography', 'History', 'Music'}",6.8
+A Thousand and One,2023-03-31,movie,1 h 57 m,8.1,6.2,"{'Crime', 'Drama'}",6.8
+Polite Society,2023-04-28,movie,1 h 44 m,7.5,6.5,"{'Action', 'Comedy'}",6.8
+They Cloned Tyrone,2023-07-14,movie,2 h 2 m,7.4,6.5,"{'Thriller', 'Comedy', 'Mystery', 'Sci-Fi'}",6.8
+Finestkind,2023-12-15,movie,2 h 6 m,4.4,7.9,"{'Crime', 'Thriller', 'Drama'}",6.8
 Sly,2023-11-03,movie,1 h 35 m,6.2,7.0,"{'Documentary', 'Biography'}",6.8
-True Spirit,2023-02-03,movie,1 h 49 m,5.0,7.6,"{'Family', 'Drama', 'Adventure', 'Biography', 'Sport'}",6.8
-The Three Musketeers - Part I: D'Artagnan,2023-12-08,movie,2 h 1 m,7.8,6.4,"{'Adventure', 'History', 'Action'}",6.8
-Eileen,2023-12-01,movie,1 h 37 m,7.1,6.6,"{'Mystery', 'Thriller', 'Drama'}",6.7
-Red White & Royal Blue,2023-08-11,movie,1 h 58 m,6.2,6.9,"{'Comedy', 'Romance'}",6.7
-Saw X,2023-09-29,movie,1 h 58 m,6.0,7.0,"{'Mystery', 'Thriller', 'Horror'}",6.7
-Leo,2023-11-17,movie,1 h 42 m,6.5,6.8,"{'Animation', 'Comedy', 'Musical', 'Family'}",6.7
-Cassandro,2023-09-15,movie,1 h 47 m,7.6,6.3,"{'Biography', 'Sport', 'Drama'}",6.7
-A Thousand and One,2023-03-31,movie,1 h 57 m,8.1,6.1,"{'Drama', 'Crime'}",6.7
-The Equalizer 3,2023-09-01,movie,1 h 49 m,5.8,7.1,"{'Action', 'Thriller', 'Crime'}",6.7
-The Magician's Elephant,2023-03-10,movie,1 h 39 m,5.3,7.3,"{'Family', 'Fantasy', 'Comedy', 'Drama', 'Adventure', 'Animation'}",6.7
-Extraction 2,2023-06-16,movie,2 h 2 m,5.7,7.1,"{'Action', 'Thriller'}",6.7
-Polite Society,2023-04-28,movie,1 h 44 m,7.5,6.4,"{'Comedy', 'Action'}",6.7
 Sitting in Bars with Cake,2023-09-08,movie,2 h,6.4,6.8,"{'Comedy', 'Romance', 'Drama'}",6.7
-Passages,2023-08-04,movie,1 h 31 m,7.9,6.2,"{'Romance', 'Drama'}",6.7
-A Haunting in Venice,2023-09-15,movie,1 h 43 m,6.3,6.7,"{'Mystery', 'Thriller', 'Drama', 'Crime', 'Horror'}",6.6
-Thanksgiving,2023-11-17,movie,1 h 46 m,6.3,6.7,"{'Mystery', 'Thriller', 'Horror'}",6.6
-Rotting in the Sun,2023-09-08,movie,1 h 49 m,7.0,6.4,"{'Mystery', 'Comedy', 'Thriller'}",6.6
-Kill Boksoon,2023-03-31,movie,2 h 17 m,6.7,6.5,"{'Action', 'Thriller'}",6.6
-Sound of Freedom,2023-07-04,movie,2 h 11 m,3.6,7.9,"{'Biography', 'Thriller', 'Drama', 'History', 'Crime'}",6.6
+Rotting in the Sun,2023-09-08,movie,1 h 49 m,7.0,6.6,"{'Thriller', 'Comedy', 'Mystery'}",6.7
+Red White & Royal Blue,2023-08-11,movie,1 h 58 m,6.2,6.9,"{'Comedy', 'Romance'}",6.7
+The Magician's Elephant,2023-03-10,movie,1 h 39 m,5.3,7.3,"{'Animation', 'Family', 'Drama', 'Adventure', 'Comedy', 'Fantasy'}",6.7
+Cassandro,2023-09-15,movie,1 h 47 m,7.6,6.3,"{'Sport', 'Biography', 'Drama'}",6.7
+Extraction 2,2023-06-16,movie,2 h 2 m,5.7,7.1,"{'Action', 'Thriller'}",6.7
+The Disappearance of Shere Hite,2023-11-17,movie,1 h 58 m,8.3,6.0,{'Documentary'},6.7
+The Equalizer 3,2023-09-01,movie,1 h 49 m,5.8,7.1,"{'Action', 'Crime', 'Thriller'}",6.7
+The Lesson,2023-07-07,movie,1 h 43 m,6.2,6.9,{'Thriller'},6.7
+Saw X,2023-09-29,movie,1 h 58 m,6.0,7.0,"{'Thriller', 'Horror', 'Mystery'}",6.7
+Guy Ritchie’s The Covenant,2023-04-21,movie,2 h 3 m,6.3,6.9,"{'Action', 'War', 'Thriller', 'Drama'}",6.7
+Wonka,2023-12-15,movie,1 h 56 m,6.6,6.8,"{'Family', 'Adventure', 'Musical', 'Comedy', 'Fantasy'}",6.7
+Ballerina,2023-10-06,movie,1 h 32 m,7.5,6.3,"{'Action', 'Thriller'}",6.7
+The Caine Mutiny Court-Martial,2023-10-06,movie,1 h 48 m,7.1,6.4,"{'War', 'Drama'}",6.6
+Nyad,2023-10-20,movie,2 h 1 m,6.4,6.7,"{'Sport', 'Biography', 'Drama'}",6.6
+A Haunting in Venice,2023-09-15,movie,1 h 43 m,6.3,6.7,"{'Drama', 'Horror', 'Mystery', 'Crime', 'Thriller'}",6.6
 "Love to Love You, Donna Summer",2023-05-20,movie,1 h 47 m,6.2,6.8,"{'Documentary', 'Music'}",6.6
-Wonka,2023-12-15,movie,1 h 56 m,6.6,6.6,"{'Musical', 'Family', 'Fantasy', 'Comedy', 'Adventure'}",6.6
-Saltburn,2023-11-17,movie,2 h 11 m,6.0,6.8,"{'Comedy', 'Thriller', 'Drama'}",6.6
-Five Nights at Freddy's,2023-10-27,movie,1 h 49 m,3.3,8.0,"{'Mystery', 'Thriller', 'Horror'}",6.6
-No Hard Feelings,2023-06-23,movie,1 h 43 m,5.9,6.7,"{'Comedy', 'Romance'}",6.5
-Gran Turismo,2023-08-25,movie,2 h 14 m,4.8,7.3,"{'Adventure', 'Action', 'Sport', 'Drama'}",6.5
-Dumb Money,2023-09-15,movie,1 h 45 m,6.6,6.4,"{'Biography', 'Comedy', 'Drama'}",6.5
-Smoke Sauna Sisterhood,2023-11-24,movie,1 h 29 m,7.9,5.9,{'Documentary'},6.5
-The Lesson,2023-07-07,movie,1 h 43 m,6.2,6.6,{'Thriller'},6.5
+The Shift,2023-12-01,movie,1 h 55 m,4.0,7.7,{'Sci-Fi'},6.6
+Plan C,2023-10-13,movie,1 h 39 m,7.4,6.3,{'Documentary'},6.6
+Sound of Freedom,2023-07-04,movie,2 h 11 m,3.6,7.8,"{'Drama', 'Biography', 'History', 'Thriller', 'Crime'}",6.5
+Gran Turismo,2023-08-25,movie,2 h 14 m,4.8,7.2,"{'Action', 'Sport', 'Adventure', 'Drama'}",6.5
+Concrete Utopia,2023-12-08,movie,2 h 10 m,7.3,6.2,"{'Drama', 'Action', 'Adventure', 'Thriller', 'Sci-Fi'}",6.5
 Earth Mama,2023-07-07,movie,1 h 41 m,8.4,5.7,{'Drama'},6.5
-Scream VI,2023-03-10,movie,2 h 2 m,6.1,6.5,"{'Mystery', 'Thriller', 'Horror'}",6.4
-Rustin,2023-11-03,movie,1 h 46 m,6.8,6.2,"{'History', 'Biography', 'Drama'}",6.4
-Full River Red,2023-03-17,movie,2 h 39 m,7.5,6.0,"{'History', 'Comedy', 'Mystery', 'Drama'}",6.4
+Thanksgiving,2023-11-17,movie,1 h 46 m,6.3,6.6,"{'Thriller', 'Horror', 'Mystery'}",6.5
+No Hard Feelings,2023-06-23,movie,1 h 43 m,5.9,6.7,"{'Comedy', 'Romance'}",6.5
+Afire,2023-07-14,movie,1 h 42 m,8.2,5.8,"{'Comedy', 'Romance', 'Drama'}",6.5
+Five Nights at Freddy's,2023-10-27,movie,1 h 49 m,3.3,7.9,"{'Thriller', 'Horror', 'Mystery'}",6.5
+Smoke Sauna Sisterhood,2023-11-24,movie,1 h 29 m,8.2,5.7,{'Documentary'},6.4
+El Conde,2023-09-08,movie,1 h 50 m,7.2,6.0,"{'Comedy', 'History', 'Horror', 'Fantasy'}",6.4
+Scream VI,2023-03-10,movie,2 h 2 m,6.1,6.6,"{'Thriller', 'Horror', 'Mystery'}",6.4
+Our Body,2023-08-04,movie,2 h 48 m,9.5,5.1,{'Documentary'},6.4
+Eileen,2023-12-01,movie,1 h 37 m,7.2,6.1,"{'Thriller', 'Mystery', 'Drama'}",6.4
+The Conference,2023-10-13,movie,1 h 40 m,7.5,6.0,"{'Thriller', 'Comedy', 'Horror', 'Mystery'}",6.4
+Rustin,2023-11-03,movie,1 h 46 m,6.8,6.2,"{'Biography', 'History', 'Drama'}",6.4
+The Creator,2023-09-29,movie,2 h 13 m,6.3,6.4,"{'Drama', 'Action', 'Adventure', 'Thriller', 'Sci-Fi'}",6.4
 Nowhere,2023-09-29,movie,1 h 49 m,6.3,6.4,"{'Thriller', 'Drama'}",6.4
-Chicken Run: Dawn of the Nugget,2023-12-08,movie,1 h 41 m,6.3,6.5,"{'Adventure', 'Animation', 'Comedy', 'Family'}",6.4
-The Creator,2023-09-29,movie,2 h 13 m,6.3,6.5,"{'Sci-Fi', 'Thriller', 'Drama', 'Adventure', 'Action'}",6.4
-Nyad,2023-10-20,movie,2 h 1 m,6.4,6.4,"{'Biography', 'Sport', 'Drama'}",6.4
 Beau Is Afraid,2023-04-14,movie,2 h 59 m,6.3,6.4,"{'Comedy', 'Horror', 'Drama'}",6.4
-Mighty Morphin Power Rangers: Once & Always,2023-04-19,movie,55 m,6.2,6.5,"{'Adventure', 'Family', 'Action', 'Sci-Fi'}",6.4
-Infinity Pool,2023-01-27,movie,1 h 57 m,7.2,5.9,"{'Mystery', 'Sci-Fi', 'Thriller', 'Crime', 'Horror'}",6.3
-Fast Charlie,2023-12-08,movie,1 h 30 m,7.0,6.0,"{'Mystery', 'Thriller', 'Drama', 'Action', 'Crime'}",6.3
-Fair Play,2023-09-29,movie,1 h 53 m,7.3,5.9,"{'Mystery', 'Thriller', 'Drama'}",6.3
-No One Will Save You,2023-09-22,movie,1 h 33 m,6.0,6.4,"{'Thriller', 'Sci-Fi', 'Horror'}",6.3
-El Conde,2023-09-08,movie,1 h 50 m,7.2,5.9,"{'History', 'Comedy', 'Fantasy', 'Horror'}",6.3
-She Came to Me,2023-10-06,movie,1 h 42 m,5.3,6.7,"{'Comedy', 'Romance', 'Drama'}",6.3
-PAW Patrol: The Mighty Movie,2023-09-29,movie,1 h 28 m,4.9,6.8,"{'Sci-Fi', 'Family', 'Fantasy', 'Comedy', 'Drama', 'Adventure', 'Animation', 'Action'}",6.2
-Blood & Gold,2023-05-26,movie,1 h 38 m,8.0,5.5,"{'Action', 'War', 'Drama'}",6.2
-Nefarious,2023-04-14,movie,1 h 37 m,4.0,7.1,"{'Thriller', 'Horror'}",6.2
-Frybread Face and Me,2023-11-24,movie,1 h 23 m,7.1,5.8,{'Drama'},6.2
-Big George Foreman: The Miraculous Story of the Once and Future Heavyweight Champion of the World,2023-04-28,movie,2 h 9 m,4.5,6.9,"{'Biography', 'Sport', 'Drama'}",6.2
-Shortcomings,2023-08-04,movie,1 h 32 m,6.7,6.0,"{'Comedy', 'Romance', 'Drama'}",6.2
-Jules,2023-08-11,movie,1 h 27 m,5.7,6.4,"{'Comedy', 'Sci-Fi', 'Drama'}",6.2
+Full River Red,2023-03-17,movie,2 h 39 m,7.5,6.0,"{'Comedy', 'History', 'Mystery', 'Drama'}",6.4
+She Came to Me,2023-10-06,movie,1 h 42 m,5.3,6.8,"{'Comedy', 'Romance', 'Drama'}",6.4
+Origin,2023-12-08,movie,2 h 21 m,7.6,5.8,"{'History', 'Drama'}",6.3
+The Passenger,2023-08-04,movie,1 h 34 m,6.2,6.3,{'Thriller'},6.3
+No One Will Save You,2023-09-22,movie,1 h 33 m,6.0,6.4,"{'Horror', 'Thriller', 'Sci-Fi'}",6.3
+Saltburn,2023-11-17,movie,2 h 11 m,6.1,6.4,"{'Comedy', 'Thriller', 'Drama'}",6.3
+Jules,2023-08-11,movie,1 h 27 m,5.7,6.6,"{'Sci-Fi', 'Comedy', 'Drama'}",6.3
+Kill Boksoon,2023-03-31,movie,2 h 17 m,6.7,6.1,"{'Action', 'Thriller'}",6.3
+Mighty Morphin Power Rangers: Once & Always,2023-04-19,movie,55 m,6.2,6.3,"{'Action', 'Adventure', 'Family', 'Sci-Fi'}",6.3
+Resident Evil: Death Island,2023-07-25,movie,1 h 31 m,6.0,6.3,"{'Action', 'Animation', 'Horror'}",6.2
+Good Grief,2023-12-29,movie,1 h 40 m,5.9,6.4,"{'Comedy', 'Romance', 'Drama'}",6.2
+Big George Foreman: The Miraculous Story of the Once and Future Heavyweight Champion of the World,2023-04-28,movie,2 h 9 m,4.5,6.9,"{'Sport', 'Biography', 'Drama'}",6.2
 Divinity,2023-10-13,movie,1 h 28 m,6.1,6.3,"{'Thriller', 'Sci-Fi'}",6.2
-"Pamela, a love story",2023-01-31,movie,1 h 52 m,6.6,5.9,"{'Documentary', 'Biography'}",6.1
-Joy Ride,2023-07-07,movie,1 h 35 m,7.4,5.5,{'Comedy'},6.1
-Sharper,2023-02-10,movie,1 h 56 m,6.5,6.0,"{'Drama', 'Thriller', 'Crime'}",6.1
-Barbie,2023-07-21,movie,1 h 54 m,8.0,5.2,"{'Adventure', 'Comedy', 'Fantasy'}",6.0
-Resident Evil: Death Island,2023-07-25,movie,1 h 31 m,6.0,6.0,"{'Animation', 'Action', 'Horror'}",6.0
-The Family Plan,2023-12-15,movie,1 h 58 m,4.1,6.8,"{'Comedy', 'Action'}",6.0
-The Dive,2023-08-25,movie,1 h 31 m,5.7,6.1,"{'Thriller', 'Drama'}",6.0
-Old Dads,2023-10-20,movie,1 h 44 m,4.2,6.8,{'Comedy'},6.0
-Reptile,2023-09-22,movie,2 h 14 m,5.2,6.3,"{'Mystery', 'Drama', 'Thriller', 'Crime'}",6.0
-Operation Fortune: Ruse de Guerre,2023-03-03,movie,1 h 54 m,5.1,6.4,"{'Comedy', 'Action', 'Thriller'}",6.0
-Renfield,2023-04-14,movie,1 h 33 m,5.3,6.3,"{'Comedy', 'Fantasy', 'Horror'}",6.0
-Pathaan,2023-01-25,movie,2 h 26 m,4.7,6.6,"{'Adventure', 'Action', 'Thriller'}",6.0
+Chicken Run: Dawn of the Nugget,2023-12-08,movie,1 h 38 m,6.3,6.2,"{'Animation', 'Adventure', 'Family', 'Comedy'}",6.2
+Fair Play,2023-09-29,movie,1 h 53 m,7.3,5.8,"{'Thriller', 'Mystery', 'Drama'}",6.2
+Nefarious,2023-04-14,movie,1 h 37 m,4.0,7.2,"{'Horror', 'Thriller'}",6.2
+Frybread Face and Me,2023-11-24,movie,1 h 23 m,7.1,5.8,{'Drama'},6.2
+Blood & Gold,2023-05-26,movie,1 h 38 m,8.0,5.5,"{'Action', 'War', 'Drama'}",6.2
+Aporia,2023-08-11,movie,1 h 44 m,6.0,6.2,"{'Sci-Fi', 'Drama'}",6.1
+American Symphony,2023-11-24,movie,1 h 44 m,7.6,5.4,"{'Documentary', 'Biography', 'Music'}",6.1
+The Mother,2023-05-12,movie,1 h 55 m,4.5,6.8,"{'Action', 'Thriller'}",6.1
+The Boys in the Boat,2023-12-25,movie,2 h 3 m,5.4,6.4,"{'Sport', 'Biography', 'Drama'}",6.1
+In My Mother's Skin,2023-10-12,movie,1 h 37 m,7.3,5.6,"{'War', 'Action', 'Horror', 'Thriller', 'Fantasy'}",6.1
+Trolls Band Together,2023-11-17,movie,1 h 31 m,5.3,6.5,"{'Animation', 'Family', 'Adventure', 'Comedy', 'Music', 'Fantasy'}",6.1
+Merry Little Batman,2023-12-08,movie,1 h 36 m,7.4,5.6,"{'Animation', 'Comedy', 'Family'}",6.1
+Joy Ride,2023-07-07,movie,1 h 35 m,7.4,5.6,{'Comedy'},6.1
+Teenage Mutant Ninja Turtles: Mutant Mayhem,2023-08-02,movie,1 h 39 m,7.4,5.5,"{'Animation', 'Sci-Fi', 'Family', 'Action', 'Adventure', 'Comedy', 'Fantasy'}",6.1
+Suitable Flesh,2023-10-27,movie,1 h 40 m,6.4,5.8,"{'Horror', 'Thriller'}",6.0
+The Dive,2023-08-25,movie,1 h 31 m,5.7,6.1,"{'Adventure', 'Thriller', 'Drama'}",6.0
+Desperation Road,2023-10-06,movie,1 h 52 m,6.0,6.0,"{'Action', 'Thriller', 'Mystery'}",6.0
+Fast Charlie,2023-12-08,movie,1 h 30 m,7.0,5.6,"{'Drama', 'Action', 'Mystery', 'Crime', 'Thriller'}",6.0
 Malum,2023-03-31,movie,1 h 32 m,7.5,5.3,"{'Horror', 'Thriller', 'Drama'}",6.0
-Suitable Flesh,2023-10-27,movie,1 h 40 m,6.4,5.8,"{'Thriller', 'Horror'}",6.0
-The Mother,2023-05-12,movie,1 h 55 m,4.5,6.7,"{'Action', 'Thriller'}",6.0
-Teenage Mutant Ninja Turtles: Mutant Mayhem,2023-08-02,movie,1 h 39 m,7.4,5.4,"{'Sci-Fi', 'Family', 'Fantasy', 'Comedy', 'Adventure', 'Animation', 'Action'}",6.0
+Renfield,2023-04-14,movie,1 h 33 m,5.3,6.3,"{'Comedy', 'Horror', 'Fantasy'}",6.0
 A Good Person,2023-03-24,movie,2 h 8 m,5.0,6.4,{'Drama'},6.0
-The Pod Generation,2023-08-11,movie,1 h 50 m,6.0,5.8,"{'Comedy', 'Romance', 'Sci-Fi'}",5.9
-Aporia,2023-08-11,movie,1 h 44 m,6.0,5.8,"{'Sci-Fi', 'Drama'}",5.9
-Blue Beetle,2023-08-18,movie,2 h 7 m,6.1,5.8,"{'Adventure', 'Thriller', 'Action', 'Sci-Fi'}",5.9
-American Symphony,2023-11-24,movie,1 h 44 m,7.6,5.2,"{'Documentary', 'Biography', 'Music'}",5.9
-Mr. Monk's Last Case: A Monk Movie,2023-12-08,movie,1 h 37 m,6.5,5.6,"{'Mystery', 'Comedy', 'Crime'}",5.9
-Cat Person,2023-10-06,movie,1 h 58 m,4.8,6.4,"{'Thriller', 'Drama'}",5.9
-Foe,2023-10-06,movie,1 h 50 m,4.4,6.5,"{'Thriller', 'Sci-Fi', 'Drama'}",5.9
-Chang Can Dunk,2023-03-10,movie,1 h 49 m,7.7,5.1,"{'Family', 'Sport', 'Drama'}",5.9
-Cypher,2023-11-24,movie,1 h 21 m,6.9,5.3,"{'Documentary', 'Music', 'Thriller'}",5.8
+Barbie,2023-07-21,movie,1 h 54 m,8.0,5.1,"{'Adventure', 'Fantasy', 'Comedy'}",6.0
+Operation Fortune: Ruse de Guerre,2023-03-03,movie,1 h 54 m,5.1,6.4,"{'Action', 'Comedy', 'Thriller'}",6.0
+Old Dads,2023-10-20,movie,1 h 44 m,4.2,6.7,{'Comedy'},5.9
+Fingernails,2023-10-27,movie,1 h 53 m,6.3,5.8,"{'Sci-Fi', 'Romance', 'Drama'}",5.9
+Mob Land,2023-08-04,movie,1 h 51 m,4.7,6.4,"{'Action', 'Crime', 'Thriller'}",5.9
+The Royal Hotel,2023-10-06,movie,1 h 31 m,7.7,5.1,{'Thriller'},5.9
+Chang Can Dunk,2023-03-10,movie,1 h 49 m,7.7,5.1,"{'Sport', 'Family', 'Drama'}",5.9
+The Goldfinger,2023-12-30,movie,2 h 6 m,4.7,6.4,"{'Action', 'Crime'}",5.9
+Please Don’t Destroy: The Treasure of Foggy Mountain,2023-11-17,movie,1 h 32 m,4.9,6.4,{'Comedy'},5.9
+Blue Beetle,2023-08-18,movie,2 h 7 m,6.1,5.8,"{'Action', 'Adventure', 'Thriller', 'Sci-Fi'}",5.9
+PAW Patrol: The Mighty Movie,2023-09-29,movie,1 h 28 m,4.9,6.2,"{'Animation', 'Sci-Fi', 'Family', 'Drama', 'Action', 'Adventure', 'Comedy', 'Fantasy'}",5.8
+Cobweb,2023-07-21,movie,1 h 28 m,5.0,6.1,"{'Horror', 'Thriller'}",5.8
+The Last Kingdom: Seven Kings Must Die,2023-04-14,movie,1 h 51 m,4.8,6.3,"{'Action', 'History', 'Drama'}",5.8
+Reptile,2023-09-22,movie,2 h 14 m,5.2,6.1,"{'Thriller', 'Crime', 'Mystery', 'Drama'}",5.8
 Bama Rush,2023-05-23,movie,1 h 40 m,7.0,5.3,{'Documentary'},5.8
-Cobweb,2023-07-21,movie,1 h 28 m,5.0,6.1,"{'Thriller', 'Horror'}",5.8
-The Retirement Plan,2023-08-25,movie,1 h 43 m,7.5,5.1,"{'Comedy', 'Action', 'Thriller', 'Crime'}",5.8
-"Miraculous: Ladybug & Cat Noir, The Movie",2023-07-21,movie,1 h 45 m,4.0,6.5,"{'Musical', 'Family', 'Fantasy', 'Comedy', 'Adventure', 'Animation', 'Action', 'Romance'}",5.8
-The Last Kingdom: Seven Kings Must Die,2023-04-14,movie,1 h 51 m,4.8,6.3,"{'History', 'Action', 'Drama'}",5.8
-Simulant,2023-06-02,movie,1 h 35 m,4.0,6.5,"{'Thriller', 'Sci-Fi', 'Crime'}",5.8
-Teen Wolf: The Movie,2023-01-26,movie,2 h 20 m,5.1,6.1,"{'Fantasy', 'Thriller', 'Drama', 'Action', 'Romance'}",5.8
-Trolls Band Together,2023-11-17,movie,1 h 31 m,5.3,6.0,"{'Family', 'Fantasy', 'Music', 'Comedy', 'Adventure', 'Animation'}",5.8
-Fingernails,2023-10-27,movie,1 h 53 m,6.3,5.5,"{'Romance', 'Sci-Fi', 'Drama'}",5.7
-The Last Voyage of the Demeter,2023-08-11,movie,1 h 58 m,5.2,5.9,"{'Fantasy', 'Horror'}",5.7
-Golda,2023-08-25,movie,1 h 40 m,4.8,6.1,"{'History', 'Biography', 'War', 'Drama'}",5.7
-The Boogeyman,2023-06-02,movie,1 h 38 m,5.5,5.8,"{'Mystery', 'Thriller', 'Horror'}",5.7
-Knock at the Cabin,2023-02-03,movie,1 h 40 m,6.3,5.5,"{'Mystery', 'Thriller', 'Horror'}",5.7
-Boston Strangler,2023-03-17,movie,1 h 52 m,5.8,5.7,"{'History', 'Drama', 'Thriller', 'Crime'}",5.7
-Flamin' Hot,2023-06-09,movie,1 h 39 m,5.8,5.7,"{'History', 'Biography', 'Drama'}",5.7
-Elemental,2023-06-16,movie,1 h 41 m,5.8,5.7,"{'Family', 'Fantasy', 'Comedy', 'Drama', 'Adventure', 'Animation', 'Romance'}",5.7
-Please Don’t Destroy: The Treasure of Foggy Mountain,2023-11-17,movie,1 h 32 m,4.9,6.1,{'Comedy'},5.7
-Our Body,2023-08-04,movie,2 h 48 m,9.5,3.9,{'Documentary'},5.6
-In My Mother's Skin,2023-10-12,movie,1 h 37 m,7.3,4.8,"{'Fantasy', 'Thriller', 'War', 'Action', 'Horror'}",5.6
-Slotherhouse,2023-08-30,movie,1 h 33 m,7.5,4.8,"{'Comedy', 'Thriller', 'Horror'}",5.6
-V/H/S/85,2023-10-06,movie,1 h 50 m,5.3,5.7,"{'Thriller', 'Horror'}",5.6
-Totally Killer,2023-10-06,movie,1 h 46 m,6.2,5.4,"{'Comedy', 'Horror'}",5.6
-Digimon Adventure 02: The Beginning,2023-11-08,movie,1 h 27 m,8.0,4.5,"{'Sci-Fi', 'Family', 'Fantasy', 'Thriller', 'Adventure', 'Animation', 'Action'}",5.6
-The Monkey King,2023-08-18,movie,1 h 37 m,5.9,5.5,"{'Family', 'Fantasy', 'Comedy', 'Adventure', 'Animation', 'Action'}",5.6
-The Hunger Games: The Ballad of Songbirds and Snakes,2023-11-17,movie,2 h 37 m,5.4,5.5,"{'Sci-Fi', 'War', 'Thriller', 'Drama', 'Adventure', 'Action'}",5.5
-Dear David,2023-10-13,movie,1 h 34 m,2.5,6.8,"{'Thriller', 'Horror'}",5.5
-The Passenger,2023-08-04,movie,1 h 34 m,6.2,5.2,{'Thriller'},5.5
-Quiz Lady,2023-11-03,movie,1 h 39 m,5.9,5.3,{'Comedy'},5.5
-Night of the Hunted,2023-10-20,movie,1 h 35 m,8.0,4.4,"{'Mystery', 'Thriller', 'Drama', 'Crime', 'Horror'}",5.5
+The Last Voyage of the Demeter,2023-08-11,movie,1 h 58 m,5.2,6.0,"{'Horror', 'Fantasy'}",5.8
+Boston Strangler,2023-03-17,movie,1 h 52 m,5.8,5.8,"{'Crime', 'History', 'Thriller', 'Drama'}",5.8
+Simulant,2023-06-02,movie,1 h 35 m,4.0,6.5,"{'Crime', 'Thriller', 'Sci-Fi'}",5.8
+Mr. Monk's Last Case: A Monk Movie,2023-12-08,movie,1 h 37 m,6.5,5.5,"{'Comedy', 'Mystery', 'Crime'}",5.8
+Cypher,2023-11-24,movie,1 h 21 m,6.9,5.3,"{'Documentary', 'Thriller', 'Music'}",5.8
+Golda,2023-08-25,movie,1 h 40 m,4.8,6.1,"{'Biography', 'History', 'War', 'Drama'}",5.7
+Supercell,2023-03-17,movie,1 h 40 m,6.3,5.5,"{'Action', 'Adventure', 'Drama'}",5.7
+Totally Killer,2023-10-06,movie,1 h 46 m,6.2,5.5,"{'Comedy', 'Horror'}",5.7
+The Retirement Plan,2023-08-25,movie,1 h 43 m,7.5,4.9,"{'Action', 'Comedy', 'Thriller', 'Crime'}",5.7
+The Boogeyman,2023-06-02,movie,1 h 38 m,5.5,5.8,"{'Thriller', 'Horror', 'Mystery'}",5.7
+Flamin' Hot,2023-06-09,movie,1 h 39 m,5.8,5.7,"{'Biography', 'History', 'Drama'}",5.7
+Elemental,2023-06-16,movie,1 h 41 m,5.8,5.7,"{'Animation', 'Family', 'Romance', 'Drama', 'Adventure', 'Comedy', 'Fantasy'}",5.7
+Stan Lee,2023-06-16,movie,1 h 26 m,5.8,5.6,"{'Documentary', 'Biography'}",5.7
+Cat Person,2023-10-06,movie,1 h 58 m,4.8,5.9,"{'Thriller', 'Drama'}",5.6
+Digimon Adventure 02: The Beginning,2023-11-08,movie,1 h 27 m,8.0,4.5,"{'Animation', 'Sci-Fi', 'Family', 'Action', 'Adventure', 'Thriller', 'Fantasy'}",5.6
+Quiz Lady,2023-11-03,movie,1 h 39 m,5.9,5.4,{'Comedy'},5.6
+V/H/S/85,2023-10-06,movie,1 h 50 m,5.3,5.8,"{'Horror', 'Thriller'}",5.6
+The Monkey King,2023-08-18,movie,1 h 37 m,5.9,5.4,"{'Animation', 'Family', 'Action', 'Adventure', 'Comedy', 'Fantasy'}",5.6
+Slotherhouse,2023-08-30,movie,1 h 33 m,7.5,4.8,"{'Comedy', 'Horror', 'Thriller'}",5.6
+Night of the Hunted,2023-10-20,movie,1 h 35 m,8.0,4.4,"{'Drama', 'Horror', 'Mystery', 'Crime', 'Thriller'}",5.5
 Down Low,2023-10-10,movie,1 h 30 m,4.8,5.8,{'Comedy'},5.5
-The Flash,2023-06-16,movie,2 h 24 m,5.5,5.5,"{'Adventure', 'Action', 'Fantasy', 'Sci-Fi'}",5.5
-The Royal Hotel,2023-10-06,movie,1 h 31 m,7.7,4.6,{'Thriller'},5.5
+The Flash,2023-06-16,movie,2 h 24 m,5.5,5.5,"{'Sci-Fi', 'Action', 'Adventure', 'Fantasy'}",5.5
+Slava Ukraini,2023-05-03,movie,1 h 34 m,7.0,4.8,{'Documentary'},5.5
+Dear David,2023-10-13,movie,1 h 34 m,2.5,6.8,"{'Horror', 'Thriller'}",5.5
 Love at First Sight,2023-09-15,movie,1 h 31 m,5.5,5.5,"{'Romance', 'Drama'}",5.5
 Perpetrator,2023-08-25,movie,1 h 41 m,6.6,5.0,{'Horror'},5.5
-Stan Lee,2023-06-16,movie,1 h 26 m,5.8,5.4,"{'Documentary', 'Biography'}",5.5
-You Are So Not Invited to My Bat Mitzvah!,2023-08-25,movie,1 h 43 m,7.1,4.6,{'Comedy'},5.4
+Champions,2023-03-10,movie,2 h 4 m,5.0,5.6,"{'Sport', 'Comedy', 'Drama'}",5.4
 Brooklyn 45,2023-06-09,movie,1 h 32 m,7.1,4.6,"{'History', 'Horror', 'Drama'}",5.4
-Quicksand,2023-06-23,movie,1 h 26 m,4.3,5.8,{'Thriller'},5.4
-Crater,2023-05-12,movie,1 h 45 m,6.5,4.9,"{'Adventure', 'Sci-Fi', 'Drama'}",5.4
+The Pope's Exorcist,2023-04-14,movie,1 h 43 m,4.5,5.8,"{'Horror', 'Thriller'}",5.4
+The Marsh King's Daughter,2023-11-03,movie,1 h 49 m,4.7,5.7,"{'Thriller', 'Crime', 'Mystery', 'Drama'}",5.4
 The Perfect Find,2023-06-23,movie,1 h 39 m,5.7,5.3,"{'Comedy', 'Romance', 'Drama'}",5.4
-The Kill Room,2023-09-29,movie,1 h 38 m,5.8,5.3,"{'Comedy', 'Thriller'}",5.4
-Champions,2023-03-10,movie,2 h 4 m,5.0,5.5,"{'Comedy', 'Sport', 'Drama'}",5.4
+Anyone But You,2023-12-22,movie,1 h 43 m,5.2,5.5,"{'Comedy', 'Romance'}",5.4
+To Catch a Killer,2023-04-21,movie,1 h 59 m,4.3,5.8,"{'Drama', 'Action', 'Mystery', 'Crime', 'Thriller'}",5.4
+You Are So Not Invited to My Bat Mitzvah!,2023-08-25,movie,1 h 43 m,7.1,4.6,{'Comedy'},5.4
+Hypnotic,2023-05-12,movie,1 h 33 m,5.3,5.5,"{'Drama', 'Action', 'Mystery', 'Thriller', 'Sci-Fi'}",5.4
+Crater,2023-05-12,movie,1 h 45 m,6.5,4.9,"{'Sci-Fi', 'Adventure', 'Drama'}",5.4
+Muzzle,2023-09-29,movie,1 h 40 m,4.0,6.0,"{'Action', 'Crime', 'Thriller'}",5.4
+Quicksand,2023-06-23,movie,1 h 26 m,4.3,5.8,{'Thriller'},5.4
+Dicks: The Musical,2023-10-06,movie,1 h 26 m,5.7,5.3,"{'Comedy', 'Musical'}",5.4
+The Pod Generation,2023-08-11,movie,1 h 50 m,6.0,5.2,"{'Comedy', 'Romance', 'Sci-Fi'}",5.4
 Every Body,2023-06-30,movie,1 h 32 m,7.7,4.4,{'Documentary'},5.4
-To Catch a Killer,2023-04-21,movie,1 h 59 m,4.3,5.8,"{'Mystery', 'Thriller', 'Drama', 'Action', 'Crime'}",5.4
-Strays,2023-08-18,movie,1 h 33 m,5.4,5.4,"{'Adventure', 'Comedy'}",5.4
-Magic Mike's Last Dance,2023-02-10,movie,1 h 52 m,5.2,5.3,"{'Comedy', 'Drama'}",5.3
-Cocaine Bear,2023-02-24,movie,1 h 35 m,5.4,5.3,"{'Comedy', 'Thriller'}",5.3
-Ant-Man and the Wasp: Quantumania,2023-02-17,movie,2 h 4 m,4.8,5.5,"{'Adventure', 'Comedy', 'Action', 'Sci-Fi'}",5.3
-Somebody I Used to Know,2023-02-10,movie,1 h 46 m,5.7,5.1,"{'Comedy', 'Romance'}",5.3
-Jesus Revolution,2023-02-24,movie,2 h,4.6,5.6,{'Drama'},5.3
-Nandor Fodor and the Talking Mongoose,2023-09-01,movie,1 h 36 m,5.4,5.2,"{'Mystery', 'Comedy'}",5.3
-Wingwomen,2023-11-01,movie,1 h 56 m,5.4,5.2,"{'Comedy', 'Action', 'Thriller', 'Crime'}",5.3
-Hypnotic,2023-05-12,movie,1 h 33 m,5.3,5.3,"{'Mystery', 'Action', 'Thriller'}",5.3
-"Ruby Gillman, Teenage Kraken",2023-06-30,movie,1 h 31 m,5.0,5.4,"{'Family', 'Fantasy', 'Comedy', 'Adventure', 'Animation', 'Action'}",5.3
-Pain Hustlers,2023-10-20,movie,2 h 3 m,4.4,5.7,"{'Drama', 'Crime'}",5.3
-After Death,2023-10-27,movie,1 h 48 m,2.2,6.5,{'Documentary'},5.2
-Leave the World Behind,2023-11-22,movie,2 h 18 m,6.7,4.6,"{'Mystery', 'Thriller', 'Drama'}",5.2
-Napoleon,2023-11-22,movie,2 h 38 m,6.4,4.7,"{'History', 'War', 'Drama', 'Adventure', 'Biography', 'Action'}",5.2
-The Marsh King's Daughter,2023-11-03,movie,1 h 49 m,4.6,5.5,"{'Mystery', 'Drama', 'Thriller', 'Crime'}",5.2
-Dark Harvest,2023-10-13,movie,1 h 36 m,5.1,5.3,"{'Fantasy', 'Horror'}",5.2
-Dicks: The Musical,2023-10-06,movie,1 h 26 m,5.7,5.0,"{'Comedy', 'Musical'}",5.2
-Elevator Game,2023-09-15,movie,1 h 34 m,4.7,5.4,"{'Thriller', 'Horror'}",5.2
-Rebel Moon Part 1: A Child of Fire,2023-12-15,movie,2 h 13 m,3.2,6.1,"{'Sci-Fi', 'Fantasy', 'Drama', 'Adventure', 'Action'}",5.2
-Animal,2023-12-01,movie,3 h 24 m,3.3,6.0,"{'Drama', 'Action', 'Thriller', 'Crime'}",5.2
-The Nun II,2023-09-08,movie,1 h 50 m,4.7,5.4,"{'Mystery', 'Thriller', 'Horror'}",5.2
+The Hunger Games: The Ballad of Songbirds and Snakes,2023-11-17,movie,2 h 37 m,5.4,5.4,"{'War', 'Drama', 'Action', 'Adventure', 'Thriller', 'Sci-Fi'}",5.4
+Pain Hustlers,2023-10-20,movie,2 h 3 m,4.4,5.7,"{'Crime', 'Drama'}",5.3
+Nandor Fodor and the Talking Mongoose,2023-09-01,movie,1 h 36 m,5.4,5.2,"{'Comedy', 'Mystery'}",5.3
+"Miraculous: Ladybug & Cat Noir, The Movie",2023-07-21,movie,1 h 45 m,4.0,5.9,"{'Animation', 'Family', 'Romance', 'Action', 'Adventure', 'Musical', 'Comedy', 'Fantasy'}",5.3
+"Ruby Gillman, Teenage Kraken",2023-06-30,movie,1 h 31 m,5.0,5.4,"{'Animation', 'Family', 'Action', 'Adventure', 'Comedy', 'Fantasy'}",5.3
+The Kill Room,2023-09-29,movie,1 h 38 m,5.8,5.1,"{'Comedy', 'Thriller'}",5.3
+Wingwomen,2023-11-01,movie,1 h 56 m,5.4,5.2,"{'Action', 'Comedy', 'Thriller', 'Crime'}",5.3
+Strays,2023-08-18,movie,1 h 33 m,5.4,5.2,"{'Adventure', 'Comedy'}",5.3
+Leave the World Behind,2023-11-22,movie,2 h 18 m,6.8,4.7,"{'Thriller', 'Mystery', 'Drama'}",5.3
 Money Shot: The Pornhub Story,2023-03-15,movie,1 h 34 m,6.3,4.8,{'Documentary'},5.2
-Chupa,2023-04-07,movie,1 h 35 m,4.8,5.4,"{'Family', 'Fantasy', 'Drama', 'Adventure', 'Action'}",5.2
 Quasi,2023-04-20,movie,1 h 39 m,5.1,5.3,"{'Comedy', 'Drama'}",5.2
-Slava Ukraini,2023-05-03,movie,1 h 34 m,7.0,4.5,{'Documentary'},5.2
-God Is a Bullet,2023-06-23,movie,2 h 36 m,3.1,6.1,"{'Action', 'Thriller', 'Crime'}",5.2
+Napoleon,2023-11-22,movie,2 h 38 m,6.4,4.7,"{'War', 'Drama', 'Action', 'Adventure', 'Biography', 'History'}",5.2
+The Nun II,2023-09-08,movie,1 h 50 m,4.7,5.4,"{'Thriller', 'Horror', 'Mystery'}",5.2
+Dark Harvest,2023-10-13,movie,1 h 36 m,5.1,5.3,"{'Horror', 'Fantasy'}",5.2
+After Death,2023-10-27,movie,1 h 48 m,2.2,6.5,{'Documentary'},5.2
+Maggie Moore(s),2023-06-16,movie,1 h 39 m,4.3,5.6,"{'Thriller', 'Comedy', 'Mystery', 'Crime'}",5.2
 Clock,2023-04-28,movie,1 h 31 m,5.9,4.7,"{'Horror', 'Thriller', 'Drama'}",5.1
-Landscape with Invisible Hand,2023-08-18,movie,1 h 45 m,5.3,5.0,"{'Comedy', 'Sci-Fi', 'Drama'}",5.1
-It's a Wonderful Knife,2023-11-10,movie,1 h 27 m,5.2,5.0,"{'Mystery', 'Comedy', 'Horror'}",5.1
+It's a Wonderful Knife,2023-11-10,movie,1 h 27 m,5.2,5.1,"{'Comedy', 'Horror', 'Mystery'}",5.1
+God Is a Bullet,2023-06-23,movie,2 h 36 m,3.1,6.0,"{'Action', 'Crime', 'Horror', 'Thriller'}",5.1
 Anna Nicole Smith: You Don't Know Me,2023-05-16,movie,1 h 56 m,5.3,5.0,"{'Documentary', 'Biography'}",5.1
-Fast X,2023-05-19,movie,2 h 21 m,5.6,4.7,"{'Mystery', 'Thriller', 'Adventure', 'Action', 'Crime'}",5.0
-Winnie-the-Pooh: Blood and Honey,2023-02-16,movie,1 h 24 m,1.6,6.4,{'Horror'},5.0
-Luther: The Fallen Sun,2023-02-24,movie,2 h 9 m,5.3,4.9,"{'Mystery', 'Drama', 'Thriller', 'Crime'}",5.0
-Shazam! Fury of the Gods,2023-03-17,movie,2 h 10 m,4.7,5.2,"{'Adventure', 'Comedy', 'Action', 'Fantasy'}",5.0
-Transformers: Rise of the Beasts,2023-06-09,movie,2 h 7 m,4.2,5.4,"{'Adventure', 'Action', 'Sci-Fi'}",5.0
+Next Goal Wins,2023-11-17,movie,1 h 44 m,4.4,5.3,"{'Sport', 'Comedy', 'Drama'}",5.0
 The Beanie Bubble,2023-07-21,movie,1 h 50 m,4.9,5.1,"{'Comedy', 'Drama'}",5.0
-Consecration,2023-02-10,movie,1 h 31 m,4.0,5.3,"{'Thriller', 'Horror'}",4.9
-Your Place or Mine,2023-02-10,movie,1 h 49 m,4.9,4.9,"{'Comedy', 'Romance'}",4.9
-Mummies,2023-02-24,movie,1 h 28 m,4.0,5.3,"{'Musical', 'Family', 'Fantasy', 'Comedy', 'Drama', 'Adventure', 'Animation', 'Romance', 'Crime'}",4.9
+Chupa,2023-04-07,movie,1 h 35 m,4.8,5.1,"{'Family', 'Drama', 'Action', 'Adventure', 'Fantasy'}",5.0
+Fast X,2023-05-19,movie,2 h 21 m,5.6,4.7,"{'Action', 'Adventure', 'Mystery', 'Crime', 'Thriller'}",5.0
+Shazam! Fury of the Gods,2023-03-17,movie,2 h 10 m,4.7,5.2,"{'Action', 'Adventure', 'Fantasy', 'Comedy'}",5.0
+Killer Book Club,2023-08-25,movie,1 h 29 m,4.2,5.3,"{'Horror', 'Thriller'}",5.0
+Aquaman And The Lost Kingdom,2023-12-22,movie,2 h 4 m,4.2,5.3,"{'Sci-Fi', 'Action', 'Adventure', 'Fantasy'}",5.0
+Transformers: Rise of the Beasts,2023-06-09,movie,2 h 7 m,4.2,5.4,"{'Action', 'Adventure', 'Sci-Fi'}",5.0
+Sympathy for the Devil,2023-07-28,movie,1 h 30 m,5.4,4.7,"{'Action', 'Thriller'}",4.9
 Inside,2023-03-17,movie,1 h 45 m,5.3,4.7,"{'Thriller', 'Drama'}",4.9
-Hidden Strike,2023-07-28,movie,1 h 42 m,4.0,5.3,"{'Adventure', 'Comedy', 'Action', 'Thriller'}",4.9
-Spy Kids: Armageddon,2023-09-22,movie,1 h 37 m,5.5,4.6,"{'Comedy', 'Action', 'Family', 'Sci-Fi'}",4.9
-Murder Mystery 2,2023-03-31,movie,1 h 30 m,4.4,5.0,"{'Mystery', 'Comedy', 'Action', 'Romance', 'Crime'}",4.8
-The Locksmith,2023-02-03,movie,1 h 32 m,4.2,5.0,"{'Mystery', 'Action', 'Thriller', 'Crime'}",4.8
-Indiana Jones and the Dial of Destiny,2023-06-30,movie,2 h 34 m,5.8,4.4,"{'Adventure', 'Action', 'Sci-Fi'}",4.8
-Run Rabbit Run,2023-06-28,movie,1 h 40 m,5.2,4.6,"{'Thriller', 'Horror'}",4.8
-Insidious: The Red Door,2023-07-07,movie,1 h 47 m,4.5,5.0,"{'Mystery', 'Thriller', 'Horror'}",4.8
-A Tourist's Guide to Love,2023-04-21,movie,1 h 34 m,4.9,4.6,"{'Adventure', 'Comedy', 'Romance'}",4.7
-Silent Night,2023-12-01,movie,1 h 44 m,5.4,4.4,"{'Action', 'Thriller'}",4.7
-Ride On,2023-04-07,movie,2 h 6 m,5.0,4.6,"{'Comedy', 'Action', 'Drama'}",4.7
-Kandahar,2023-05-26,movie,1 h 59 m,5.2,4.5,"{'Action', 'Thriller'}",4.7
-Haunted Mansion,2023-07-28,movie,2 h 3 m,4.7,4.5,"{'Mystery', 'Family', 'Fantasy', 'Comedy', 'Drama', 'Horror'}",4.6
-Meg 2: The Trench,2023-08-04,movie,1 h 56 m,4.0,4.9,"{'Sci-Fi', 'Thriller', 'Adventure', 'Action', 'Horror'}",4.6
+Indiana Jones and the Dial of Destiny,2023-06-30,movie,2 h 34 m,5.8,4.5,"{'Action', 'Adventure', 'Sci-Fi'}",4.9
+Lady Ballers,2023-12-01,movie,1 h 52 m,2.5,6.0,"{'Sport', 'Comedy'}",4.9
+Silent Night,2023-12-01,movie,1 h 44 m,5.3,4.8,"{'Action', 'Thriller'}",4.9
+Spy Kids: Armageddon,2023-09-22,movie,1 h 37 m,5.5,4.6,"{'Action', 'Comedy', 'Family', 'Sci-Fi'}",4.9
+Foe,2023-10-06,movie,1 h 50 m,4.4,5.1,"{'Sci-Fi', 'Thriller', 'Drama'}",4.9
+Landscape with Invisible Hand,2023-08-18,movie,1 h 45 m,5.3,4.8,"{'Sci-Fi', 'Comedy', 'Drama'}",4.9
+Insidious: The Red Door,2023-07-07,movie,1 h 47 m,4.5,4.9,"{'Thriller', 'Horror', 'Mystery'}",4.8
+Rebel Moon Part 1: A Child of Fire,2023-12-15,movie,2 h 13 m,3.1,5.6,"{'Drama', 'Action', 'Adventure', 'Fantasy', 'Sci-Fi'}",4.8
+Run Rabbit Run,2023-06-28,movie,1 h 40 m,5.2,4.6,"{'Horror', 'Thriller'}",4.8
+Elevator Game,2023-09-15,movie,1 h 34 m,4.7,4.8,"{'Horror', 'Thriller'}",4.8
+Kandahar,2023-05-26,movie,1 h 59 m,5.2,4.6,"{'Action', 'Thriller'}",4.8
+Murder Mystery 2,2023-03-31,movie,1 h 30 m,4.4,5.0,"{'Romance', 'Action', 'Mystery', 'Comedy', 'Crime'}",4.8
+The Angry Black Girl and Her Monster,2023-06-09,movie,1 h 31 m,6.2,4.2,"{'Horror', 'Fantasy', 'Drama'}",4.8
+The Family Plan,2023-12-15,movie,1 h 58 m,3.9,5.2,"{'Action', 'Comedy'}",4.8
+Ride On,2023-04-07,movie,2 h 6 m,5.0,4.6,"{'Action', 'Comedy', 'Drama'}",4.7
+A Tourist's Guide to Love,2023-04-21,movie,1 h 34 m,4.9,4.6,"{'Adventure', 'Romance', 'Comedy'}",4.7
+Heart of Stone,2023-08-11,movie,2 h 2 m,4.4,4.8,"{'Action', 'Crime', 'Thriller'}",4.7
 Love Again,2023-05-05,movie,1 h 44 m,3.2,5.2,"{'Comedy', 'Romance', 'Drama'}",4.6
-Genie,2023-11-22,movie,1 h 33 m,3.5,5.0,"{'Comedy', 'Fantasy'}",4.6
-Sympathy for the Devil,2023-07-28,movie,1 h 30 m,5.4,4.3,"{'Action', 'Thriller'}",4.6
-At Midnight,2023-02-10,movie,1 h 40 m,5.1,4.4,"{'Comedy', 'Romance'}",4.6
-Heart of Stone,2023-08-11,movie,2 h 2 m,4.4,4.7,"{'Action', 'Thriller', 'Crime'}",4.6
-Family Switch,2023-11-30,movie,1 h 46 m,3.7,5.0,"{'Comedy', 'Family'}",4.6
 In the Fire,2023-10-13,movie,1 h 27 m,5.0,4.4,{'Thriller'},4.6
+Meg 2: The Trench,2023-08-04,movie,1 h 56 m,4.0,4.8,"{'Action', 'Adventure', 'Horror', 'Thriller', 'Sci-Fi'}",4.6
+Haunted Mansion,2023-07-28,movie,2 h 3 m,4.7,4.5,"{'Family', 'Drama', 'Horror', 'Mystery', 'Comedy', 'Fantasy'}",4.6
+Hidden Strike,2023-07-28,movie,1 h 42 m,4.0,4.9,"{'Action', 'Adventure', 'Thriller', 'Comedy'}",4.6
+After Everything,2023-09-13,movie,1 h 33 m,2.5,5.4,"{'Romance', 'Drama'}",4.5
+Candy Cane Lane,2023-12-01,movie,1 h 57 m,4.7,4.4,"{'Comedy', 'Family', 'Fantasy'}",4.5
 Stamped from the Beginning,2023-11-15,movie,1 h 31 m,7.5,3.2,{'Documentary'},4.5
-The Machine,2023-05-26,movie,1 h 52 m,3.7,4.8,"{'Comedy', 'Action'}",4.5
-65,2023-03-10,movie,1 h 33 m,4.0,4.7,"{'Sci-Fi', 'Thriller', 'Drama', 'Adventure', 'Action'}",4.5
-We Have a Ghost,2023-02-24,movie,2 h 6 m,5.3,4.2,"{'Mystery', 'Family', 'Fantasy', 'Comedy', 'Drama', 'Adventure', 'Horror'}",4.5
-Freelance,2023-10-27,movie,1 h 48 m,2.4,5.3,"{'Comedy', 'Action'}",4.4
-The Angry Black Girl and Her Monster,2023-06-09,movie,1 h 31 m,6.2,3.5,"{'Horror', 'Fantasy', 'Drama'}",4.3
-Retribution,2023-08-25,movie,1 h 31 m,4.3,4.3,"{'Action', 'Thriller'}",4.3
-Mafia Mamma,2023-04-14,movie,1 h 41 m,4.2,4.3,"{'Comedy', 'Action', 'Crime'}",4.3
-What Happens Later,2023-11-03,movie,1 h 43 m,5.9,3.4,"{'Comedy', 'Romance'}",4.2
-Paint,2023-04-07,movie,1 h 36 m,4.5,4.1,"{'Comedy', 'Drama'}",4.2
-Ghosted,2023-04-21,movie,1 h 56 m,3.4,4.5,"{'Adventure', 'Comedy', 'Action', 'Romance'}",4.2
+Family Switch,2023-11-30,movie,1 h 46 m,3.7,4.9,"{'Comedy', 'Family'}",4.5
+65,2023-03-10,movie,1 h 33 m,4.0,4.7,"{'Drama', 'Action', 'Adventure', 'Thriller', 'Sci-Fi'}",4.5
+The Machine,2023-05-26,movie,1 h 52 m,3.7,4.7,"{'Action', 'Comedy'}",4.4
+Genie,2023-11-22,movie,1 h 33 m,3.5,4.8,"{'Comedy', 'Fantasy'}",4.4
+The Miracle Club,2023-07-14,movie,1 h 30 m,4.9,4.0,"{'Comedy', 'Drama'}",4.3
+Mafia Mamma,2023-04-14,movie,1 h 41 m,4.2,4.3,"{'Action', 'Comedy', 'Crime'}",4.3
+Ghosted,2023-04-21,movie,1 h 56 m,3.4,4.5,"{'Action', 'Adventure', 'Romance', 'Comedy'}",4.2
+The Marvels,2023-11-10,movie,1 h 45 m,5.0,3.8,"{'Action', 'Adventure', 'Fantasy'}",4.2
+Bird Box Barcelona,2023-07-14,movie,1 h 52 m,4.7,4.0,"{'Thriller', 'Horror', 'Mystery', 'Sci-Fi'}",4.2
+Retribution,2023-08-25,movie,1 h 31 m,4.3,4.2,"{'Action', 'Thriller'}",4.2
 Superpower,2023-09-18,movie,1 h 55 m,4.7,4.0,{'Documentary'},4.2
-Bird Box Barcelona,2023-07-14,movie,1 h 52 m,4.7,4.0,"{'Mystery', 'Thriller', 'Sci-Fi', 'Horror'}",4.2
-80 for Brady,2023-02-03,movie,1 h 38 m,5.2,3.6,"{'Biography', 'Comedy', 'Sport', 'Drama'}",4.1
-Sheroes,2023-06-23,movie,1 h 31 m,5.0,3.6,"{'Adventure', 'Comedy', 'Action', 'Crime'}",4.0
-It Lives Inside,2023-09-22,movie,1 h 39 m,5.0,3.5,"{'Horror', 'Thriller', 'Drama'}",4.0
-The Strays,2023-02-22,movie,1 h 40 m,5.8,3.3,"{'Thriller', 'Drama'}",4.0
-The Wrath of Becky,2023-05-26,movie,1 h 24 m,5.1,3.5,"{'Action', 'Thriller', 'Horror'}",4.0
-Candy Cane Lane,2023-12-01,movie,1 h 57 m,4.7,3.6,"{'Comedy', 'Fantasy', 'Family'}",3.9
-Expend4bles,2023-09-22,movie,1 h 43 m,3.0,4.3,"{'Adventure', 'Action', 'Thriller', 'War'}",3.9
-The Out-Laws,2023-07-07,movie,1 h 35 m,3.6,4.0,"{'Comedy', 'Action', 'Romance', 'Crime'}",3.9
+What Happens Later,2023-11-03,movie,1 h 43 m,5.9,3.4,"{'Comedy', 'Romance'}",4.2
+The Wrath of Becky,2023-05-26,movie,1 h 24 m,5.1,3.8,"{'Action', 'Horror', 'Thriller'}",4.2
+Freelance,2023-10-27,movie,1 h 48 m,2.2,5.1,"{'Action', 'Comedy'}",4.2
+It Lives Inside,2023-09-22,movie,1 h 39 m,5.0,3.7,"{'Horror', 'Thriller', 'Drama'}",4.1
+Paint,2023-04-07,movie,1 h 36 m,4.5,3.9,"{'Comedy', 'Drama'}",4.1
+The Sacrifice Game,2023-12-08,movie,1 h 39 m,5.5,3.3,{'Horror'},4.0
 Good Burger 2,2023-11-22,movie,1 h 30 m,4.8,3.5,"{'Comedy', 'Family'}",3.9
+Wish,2023-11-22,movie,1 h 35 m,4.7,3.6,"{'Animation', 'Family', 'Adventure', 'Musical', 'Comedy', 'Fantasy'}",3.9
+The Out-Laws,2023-07-07,movie,1 h 35 m,3.6,4.0,"{'Action', 'Comedy', 'Romance', 'Crime'}",3.9
+Demon Slayer: Kimetsu no Yaiba -To the Swordsmith Village-,2023-03-03,movie,1 h 50 m,4.0,3.7,"{'Animation', 'Action', 'Adventure', 'Thriller', 'Fantasy'}",3.8
+Vacation Friends 2,2023-08-25,movie,1 h 46 m,3.8,3.8,"{'Action', 'Crime', 'Adventure', 'Comedy'}",3.8
+About My Father,2023-05-26,movie,1 h 30 m,3.9,3.7,{'Comedy'},3.8
+Expend4bles,2023-09-22,movie,1 h 43 m,3.0,4.2,"{'Action', 'Adventure', 'War', 'Thriller'}",3.8
 My Big Fat Greek Wedding 3,2023-09-08,movie,1 h 32 m,3.5,3.9,"{'Comedy', 'Romance', 'Drama'}",3.8
-Demon Slayer: Kimetsu no Yaiba -To the Swordsmith Village-,2023-03-03,movie,1 h 50 m,4.0,3.7,"{'Fantasy', 'Thriller', 'Adventure', 'Animation', 'Action'}",3.8
-Book Club: The Next Chapter,2023-05-12,movie,1 h 47 m,4.6,3.5,{'Comedy'},3.8
-About My Father,2023-05-26,movie,1 h 30 m,3.9,3.8,{'Comedy'},3.8
+Book Club: The Next Chapter,2023-05-12,movie,1 h 47 m,4.6,3.4,{'Comedy'},3.8
+Sheroes,2023-06-23,movie,1 h 31 m,5.0,3.2,"{'Action', 'Crime', 'Adventure', 'Comedy'}",3.7
 Happiness for Beginners,2023-07-21,movie,1 h 43 m,4.8,3.3,"{'Comedy', 'Romance', 'Drama'}",3.7
-Vacation Friends 2,2023-08-25,movie,1 h 46 m,3.8,3.6,"{'Adventure', 'Comedy', 'Action', 'Crime'}",3.7
-Next Goal Wins,2023-11-17,movie,1 h 44 m,4.4,3.4,"{'Comedy', 'Sport', 'Drama'}",3.7
-Maybe I Do,2023-01-27,movie,1 h 35 m,4.2,3.3,"{'Comedy', 'Romance'}",3.6
-The Black Demon,2023-04-28,movie,1 h 40 m,4.0,3.1,"{'Horror', 'Thriller', 'Sci-Fi', 'Drama'}",3.4
-The Little Mermaid,2023-05-26,movie,2 h 15 m,5.9,2.4,"{'Musical', 'Family', 'Fantasy', 'Adventure', 'Romance'}",3.4
-White Men Can't Jump,2023-05-19,movie,1 h 41 m,4.0,3.1,"{'Comedy', 'Sport', 'Drama'}",3.4
-The Archies,2023-12-07,movie,2 h 21 m,6.6,2.0,"{'Comedy', 'Musical', 'Romance', 'Drama'}",3.4
+Our Son,2023-12-08,movie,1 h 44 m,5.8,2.7,"{'Crime', 'Drama'}",3.6
+Pet Sematary: Bloodlines,2023-10-06,movie,1 h 27 m,3.1,3.6,"{'Horror', 'Fantasy'}",3.4
+The Black Demon,2023-04-28,movie,1 h 40 m,4.0,3.1,"{'Sci-Fi', 'Horror', 'Thriller', 'Drama'}",3.4
 The Exorcist: Believer,2023-10-06,movie,1 h 51 m,3.9,3.2,{'Horror'},3.4
-Pet Sematary: Bloodlines,2023-10-06,movie,1 h 27 m,3.1,3.4,"{'Fantasy', 'Horror'}",3.3
-Knights of the Zodiac,2023-05-12,movie,1 h 52 m,3.5,3.1,"{'Sci-Fi', 'Fantasy', 'Drama', 'Adventure', 'Action'}",3.2
+White Men Can't Jump,2023-05-19,movie,1 h 41 m,4.0,3.1,"{'Sport', 'Comedy', 'Drama'}",3.4
+The Little Mermaid,2023-05-26,movie,2 h 15 m,5.9,2.4,"{'Family', 'Romance', 'Adventure', 'Musical', 'Fantasy'}",3.4
+Knights of the Zodiac,2023-05-12,movie,1 h 52 m,3.5,3.2,"{'Drama', 'Action', 'Adventure', 'Fantasy', 'Sci-Fi'}",3.3
+The Archies,2023-12-07,movie,2 h 21 m,6.6,1.7,"{'Romance', 'Comedy', 'Musical', 'Drama'}",3.2
 Fool's Paradise,2023-05-12,movie,1 h 38 m,2.7,3.3,{'Comedy'},3.1
-Peter Pan & Wendy,2023-04-28,movie,1 h 46 m,6.1,1.5,"{'Musical', 'Family', 'Fantasy', 'Comedy', 'Adventure', 'Action', 'Romance'}",2.9
-All Fun and Games,2023-09-01,movie,1 h 16 m,5.0,2.0,"{'Thriller', 'Horror'}",2.9
+All Fun and Games,2023-09-01,movie,1 h 16 m,5.0,2.0,"{'Horror', 'Thriller'}",2.9
+Peter Pan & Wendy,2023-04-28,movie,1 h 46 m,6.1,1.5,"{'Family', 'Romance', 'Action', 'Adventure', 'Musical', 'Comedy', 'Fantasy'}",2.9
 On a Wing and a Prayer,2023-04-05,movie,1 h 42 m,1.9,3.2,{'Drama'},2.8
 One True Loves,2023-04-07,movie,1 h 40 m,3.5,2.3,"{'Comedy', 'Romance', 'Drama'}",2.7
-Last Sentinel,2023-03-24,movie,1 h 57 m,4.0,1.8,"{'Thriller', 'Sci-Fi', 'Drama'}",2.5
-Best. Christmas. Ever.,2023-11-16,movie,1 h 22 m,3.4,1.8,"{'Comedy', 'Romance'}",2.3
+Best. Christmas. Ever.,2023-11-16,movie,1 h 22 m,3.4,2.3,"{'Comedy', 'Romance'}",2.6
+Last Sentinel,2023-03-24,movie,1 h 57 m,4.0,1.8,"{'Sci-Fi', 'Horror', 'Thriller', 'Drama'}",2.5
+The Tutor,2023-03-24,movie,1 h 32 m,3.8,1.5,"{'Thriller', 'Mystery'}",2.2
 The Lying Life of Adults,2023-01-04,tvshow,1 Season,7.9,9.5,{'Drama'},9.0
-PLUTO,2023-10-26,tvshow,1 Season,8.6,9.2,"{'Mystery', 'Sci-Fi', 'Thriller', 'Drama', 'Animation', 'Action'}",9.0
-Planet Earth III,2023-10-22,tvshow,1 Season,8.8,8.6,{'Documentary'},8.7
-Adventure Time: Fionna and Cake,2023-08-31,tvshow,2 Seasons,7.8,8.8,"{'Sci-Fi', 'Fantasy', 'Comedy', 'Adventure', 'Animation', 'Action'}",8.5
-Blue Eye Samurai,2023-11-03,tvshow,2 Seasons,8.8,8.2,"{'History', 'Thriller', 'Drama', 'Adventure', 'Animation', 'Action'}",8.4
-Savior Complex,2023-09-26,tvshow,1 Season,8.1,8.5,"{'Documentary', 'Crime'}",8.4
+PLUTO,2023-10-26,tvshow,1 Season,8.6,9.1,"{'Animation', 'Drama', 'Action', 'Mystery', 'Thriller', 'Sci-Fi'}",9.0
+Planet Earth III,2023-10-22,tvshow,1 Season,8.8,8.8,{'Documentary'},8.8
 Wild Isles,2023-03-04,tvshow,1 Season,8.3,8.3,{'Documentary'},8.3
+Blue Eye Samurai,2023-11-03,tvshow,2 Seasons,8.8,8.1,"{'Animation', 'Drama', 'Action', 'Adventure', 'History', 'Thriller'}",8.3
+Wrestlers,2023-09-13,tvshow,1 Season,8.3,8.2,"{'Documentary', 'Sport'}",8.2
+Adventure Time: Fionna and Cake,2023-08-31,tvshow,2 Seasons,7.8,8.4,"{'Animation', 'Sci-Fi', 'Action', 'Adventure', 'Comedy', 'Fantasy'}",8.2
 Dear Mama,2023-04-21,tvshow,1 Season,7.8,8.3,"{'Documentary', 'Biography', 'Music'}",8.2
-Beckham,2023-10-04,tvshow,1 Season,6.9,8.6,"{'Documentary', 'Biography', 'Sport'}",8.1
+Pokémon Concierge,2023-12-28,tvshow,1 Season,7.8,8.3,"{'Animation', 'Family', 'Adventure', 'Comedy', 'Fantasy'}",8.2
+Beckham,2023-10-04,tvshow,1 Season,6.9,8.6,"{'Documentary', 'Sport', 'Biography'}",8.1
+"Murder In Boston: Roots, Rampage & Reckoning",2023-12-04,tvshow,1 Season,8.0,8.2,"{'Documentary', 'Crime', 'History'}",8.1
 Fellow Travelers,2023-10-27,tvshow,1 Season,7.6,8.1,"{'Romance', 'Drama'}",8.0
-Wrestlers,2023-09-13,tvshow,1 Season,8.3,7.8,"{'Documentary', 'Sport'}",8.0
+Carol & The End of The World,2023-12-15,tvshow,1 Season,7.9,8.1,"{'Sci-Fi', 'Animation', 'Comedy', 'Drama'}",8.0
+Savior Complex,2023-09-26,tvshow,1 Season,8.1,8.0,"{'Documentary', 'Crime'}",8.0
+Scavengers Reign,2023-10-19,tvshow,1 Season,8.4,7.9,"{'Sci-Fi', 'Animation', 'Adventure', 'Drama'}",8.0
 Beef,2023-04-06,tvshow,1 Season,8.6,7.6,"{'Comedy', 'Drama'}",7.9
-Scavengers Reign,2023-10-19,tvshow,1 Season,8.4,7.7,"{'Adventure', 'Animation', 'Sci-Fi', 'Drama'}",7.9
-A Small Light,2023-05-01,tvshow,1 Season,8.3,7.6,"{'History', 'Biography', 'War', 'Drama'}",7.8
-High Desert,2023-05-17,tvshow,1 Season,6.7,8.3,"{'Comedy', 'Drama', 'Crime'}",7.8
-John Mulaney: Baby J,2023-04-25,tvshow,0 Seasons,7.4,8.0,"{'Documentary', 'Comedy'}",7.8
-Telemarketers,2023-08-13,tvshow,1 Season,8.1,7.5,{'Documentary'},7.7
-White House Plumbers,2023-05-01,tvshow,1 Season,6.2,8.2,"{'History', 'Biography', 'Drama'}",7.6
+John Mulaney: Baby J,2023-04-25,tvshow,0 Seasons,7.4,7.9,"{'Documentary', 'Comedy'}",7.8
+A Small Light,2023-05-01,tvshow,1 Season,8.3,7.6,"{'Biography', 'History', 'War', 'Drama'}",7.8
+High Desert,2023-05-17,tvshow,1 Season,6.7,8.2,"{'Drama', 'Comedy', 'Crime'}",7.7
+Telemarketers,2023-08-13,tvshow,1 Season,8.1,7.4,{'Documentary'},7.6
+Such Brave Girls,2023-11-22,tvshow,1 Season,7.2,7.8,{'Comedy'},7.6
 Primo (2023),2023-05-19,tvshow,1 Season,8.2,7.3,{'Comedy'},7.6
-Last Call: When A Serial Killer Stalked Queer New York,2023-07-07,tvshow,1 Season,8.5,7.2,"{'Documentary', 'Crime'}",7.6
-Lockwood & Co.,2023-01-27,tvshow,1 Season,7.8,7.5,"{'Mystery', 'Fantasy', 'Thriller', 'Drama', 'Adventure', 'Action', 'Horror'}",7.6
-One Piece (2023),2023-08-31,tvshow,2 Seasons,6.7,7.9,"{'Fantasy', 'Comedy', 'Drama', 'Adventure', 'Action'}",7.5
+Lockwood & Co.,2023-01-27,tvshow,1 Season,7.8,7.5,"{'Drama', 'Action', 'Adventure', 'Horror', 'Mystery', 'Thriller', 'Fantasy'}",7.6
+White House Plumbers,2023-05-01,tvshow,1 Season,6.2,8.2,"{'Biography', 'History', 'Drama'}",7.6
+One Piece (2023),2023-08-31,tvshow,2 Seasons,6.7,7.9,"{'Drama', 'Action', 'Adventure', 'Comedy', 'Fantasy'}",7.5
 Hannah Waddingham: Home for Christmas,2023-11-22,tvshow,0 Seasons,7.6,7.5,{'Music'},7.5
 The Lost Flowers of Alice Hart,2023-08-03,tvshow,1 Season,6.6,7.7,{'Drama'},7.4
-Such Brave Girls,2023-11-22,tvshow,1 Season,7.2,7.5,{'Comedy'},7.4
-Silo,2023-05-05,tvshow,2 Seasons,7.5,7.2,"{'Mystery', 'Sci-Fi', 'Drama'}",7.3
-Mrs. Davis,2023-04-20,tvshow,1 Season,7.8,6.9,"{'Comedy', 'Sci-Fi', 'Drama'}",7.2
-The Clearing,2023-05-24,tvshow,1 Season,6.1,7.6,"{'Mystery', 'Thriller', 'Drama'}",7.2
-The Artful Dodger,2023-11-29,tvshow,1 Season,6.9,7.3,"{'History', 'Drama', 'Crime'}",7.2
-Poker Face (2023),2023-01-26,tvshow,2 Seasons,8.4,6.5,"{'Mystery', 'Comedy', 'Drama', 'Crime'}",7.1
-MADOFF: The Monster of Wall Street,2023-01-04,tvshow,1 Season,7.4,6.8,"{'Documentary', 'Crime'}",7.0
-The Curse (2023),2023-11-09,tvshow,1 Season,7.6,6.8,"{'Comedy', 'Thriller', 'Drama'}",7.0
-Lucky Hank,2023-01-11,tvshow,1 Season,7.0,7.0,"{'Comedy', 'Drama'}",7.0
-Scott Pilgrim Takes Off,2023-11-17,tvshow,1 Season,8.2,6.5,"{'Fantasy', 'Music', 'Comedy', 'Adventure', 'Animation', 'Action', 'Romance'}",7.0
-I'm A Virgo,2023-06-23,tvshow,1 Season,8.5,6.3,"{'Comedy', 'Fantasy', 'Drama'}",7.0
+Archie,2023-11-23,tvshow,2 Seasons,6.2,7.8,"{'Biography', 'Drama'}",7.3
+Percy Jackson And The Olympians,2023-12-19,tvshow,1 Season,7.3,7.3,"{'Action', 'Adventure', 'Family', 'Fantasy'}",7.3
+John Lennon: Murder Without A Trial,2023-12-06,tvshow,1 Season,6.7,7.5,"{'Documentary', 'Crime', 'History'}",7.3
+Silo,2023-05-05,tvshow,2 Seasons,7.5,7.2,"{'Sci-Fi', 'Mystery', 'Drama'}",7.3
+The Clearing,2023-05-24,tvshow,1 Season,6.1,7.6,"{'Thriller', 'Mystery', 'Drama'}",7.2
+The Curse (2023),2023-11-09,tvshow,1 Season,7.6,7.1,"{'Comedy', 'Thriller', 'Drama'}",7.2
+The Artful Dodger,2023-11-29,tvshow,1 Season,6.7,7.4,"{'Crime', 'History', 'Drama'}",7.2
+Mrs. Davis,2023-04-20,tvshow,1 Season,7.8,7.0,"{'Sci-Fi', 'Comedy', 'Drama'}",7.2
+Yu Yu Hakusho (2023),2023-12-14,tvshow,1 Season,7.0,7.2,"{'Drama', 'Action', 'Adventure', 'Comedy', 'Fantasy'}",7.1
+Poker Face (2023),2023-01-26,tvshow,2 Seasons,8.4,6.6,"{'Drama', 'Comedy', 'Mystery', 'Crime'}",7.1
+Lessons in Chemistry,2023-10-12,tvshow,1 Season,6.8,7.1,{'Drama'},7.0
 Everyone Else Burns,2023-01-23,tvshow,2 Seasons,8.0,6.5,{'Comedy'},7.0
-Lessons in Chemistry,2023-10-12,tvshow,1 Season,6.8,7.0,{'Drama'},6.9
+MADOFF: The Monster of Wall Street,2023-01-04,tvshow,1 Season,7.4,6.8,"{'Documentary', 'Crime'}",7.0
+Scott Pilgrim Takes Off,2023-11-17,tvshow,1 Season,8.2,6.5,"{'Animation', 'Romance', 'Action', 'Adventure', 'Comedy', 'Music', 'Fantasy'}",7.0
+Rain Dogs,2023-03-02,tvshow,1 Season,8.8,6.1,"{'Comedy', 'Drama'}",6.9
 The Diplomat (2023),2023-02-20,tvshow,2 Seasons,7.5,6.7,"{'Thriller', 'Drama'}",6.9
-Carol & The End of The World,2023-12-15,tvshow,1 Season,7.9,6.5,"{'Animation', 'Comedy', 'Sci-Fi', 'Drama'}",6.9
-Dear Edward,2023-02-02,tvshow,1 Season,6.1,7.3,{'Drama'},6.9
 Shrinking,2023-01-27,tvshow,2 Seasons,6.8,7.0,"{'Comedy', 'Drama'}",6.9
-Extraordinary,2023-01-25,tvshow,2 Seasons,7.4,6.5,"{'Sci-Fi', 'Fantasy', 'Comedy', 'Adventure', 'Action'}",6.8
-Dead Ringers (2023),2023-04-20,tvshow,1 Season,7.9,6.4,"{'Horror', 'Thriller', 'Drama'}",6.8
-The Company You Keep (2023),2023-02-19,tvshow,1 Season,6.7,6.9,"{'Drama', 'Crime'}",6.8
-Emergency: NYC,2023-03-29,tvshow,1 Season,9.0,5.8,{'Documentary'},6.8
-Rain Dogs,2023-03-02,tvshow,1 Season,8.8,6.0,"{'Comedy', 'Drama'}",6.8
+Dear Edward,2023-02-02,tvshow,1 Season,6.1,7.3,{'Drama'},6.9
 Jury Duty (2023),2023-04-06,tvshow,1 Season,5.1,7.6,{'Comedy'},6.8
-Chris Rock: Selective Outrage,2023-03-04,tvshow,0 Seasons,5.4,7.3,{'Comedy'},6.7
-The Last of Us,2023-01-15,tvshow,2 Seasons,8.4,6.0,"{'Sci-Fi', 'Thriller', 'Drama', 'Adventure', 'Action', 'Horror'}",6.7
-Twisted Metal,2023-07-27,tvshow,2 Seasons,5.3,7.3,"{'Sci-Fi', 'Fantasy', 'Comedy', 'Adventure', 'Action'}",6.7
-The Fall of the House of Usher,2023-10-12,tvshow,1 Season,7.3,6.5,"{'Mystery', 'Horror', 'Drama'}",6.7
-Tiny Beautiful Things,2023-04-07,tvshow,1 Season,7.3,6.4,"{'Comedy', 'Drama'}",6.7
+Dead Ringers (2023),2023-04-21,tvshow,1 Season,7.9,6.3,"{'Horror', 'Thriller', 'Drama'}",6.8
+Extraordinary,2023-01-25,tvshow,2 Seasons,7.4,6.5,"{'Action', 'Adventure', 'Fantasy', 'Comedy', 'Sci-Fi'}",6.8
+Lucky Hank,2023-01-11,tvshow,1 Season,7.0,6.7,"{'Comedy', 'Drama'}",6.8
+Emergency: NYC,2023-03-29,tvshow,1 Season,9.0,5.8,{'Documentary'},6.8
+Copenhagen Cowboy,2023-01-05,tvshow,1 Season,6.3,6.9,"{'Crime', 'Thriller', 'Drama'}",6.7
+The Last of Us,2023-01-15,tvshow,2 Seasons,8.4,6.0,"{'Drama', 'Action', 'Adventure', 'Horror', 'Thriller', 'Sci-Fi'}",6.7
+Last Call: When A Serial Killer Stalked Queer New York,2023-07-07,tvshow,1 Season,8.5,6.0,"{'Documentary', 'Crime'}",6.7
+Twisted Metal,2023-07-27,tvshow,2 Seasons,5.3,7.3,"{'Action', 'Adventure', 'Fantasy', 'Comedy', 'Sci-Fi'}",6.7
 Swarm,2023-03-16,tvshow,1 Season,6.6,6.7,"{'Comedy', 'Thriller', 'Drama'}",6.7
-The Walking Dead: Daryl Dixon,2023-09-10,tvshow,2 Seasons,6.8,6.7,"{'Horror', 'Sci-Fi', 'Drama'}",6.7
-Copenhagen Cowboy,2023-01-05,tvshow,1 Season,6.3,6.9,"{'Drama', 'Thriller', 'Crime'}",6.7
-Love & Death,2023-04-27,tvshow,1 Season,6.2,6.8,"{'Mystery', 'Thriller', 'Drama', 'Biography', 'Crime'}",6.6
-Full Circle (2023),2023-07-13,tvshow,1 Season,7.0,6.4,"{'Mystery', 'Drama', 'Crime'}",6.6
-Monarch: Legacy of Monsters,2023-11-17,tvshow,1 Season,6.8,6.5,"{'Adventure', 'Action', 'Sci-Fi'}",6.6
+Tiny Beautiful Things,2023-04-07,tvshow,1 Season,7.3,6.4,"{'Comedy', 'Drama'}",6.7
+I'm A Virgo,2023-06-23,tvshow,1 Season,8.5,6.0,"{'Comedy', 'Fantasy', 'Drama'}",6.7
+The Fall of the House of Usher,2023-10-12,tvshow,1 Season,7.3,6.4,"{'Horror', 'Mystery', 'Drama'}",6.7
+Chris Rock: Selective Outrage,2023-03-04,tvshow,0 Seasons,5.4,7.3,{'Comedy'},6.7
+The Walking Dead: Daryl Dixon,2023-09-10,tvshow,2 Seasons,6.8,6.5,"{'Sci-Fi', 'Horror', 'Drama'}",6.6
+Love & Death,2023-04-27,tvshow,1 Season,6.2,6.8,"{'Drama', 'Mystery', 'Biography', 'Thriller', 'Crime'}",6.6
 The Irrational,2023-09-25,tvshow,2 Seasons,5.5,7.1,"{'Thriller', 'Drama'}",6.6
-A Murder at the End of the World,2023-11-14,tvshow,1 Season,7.3,6.1,"{'Mystery', 'Thriller', 'Drama'}",6.5
-Daisy Jones & The Six,2023-03-01,tvshow,1 Season,6.2,6.6,"{'Romance', 'Music', 'Drama'}",6.5
-The Other Black Girl,2023-09-13,tvshow,1 Season,6.8,6.4,"{'Mystery', 'Comedy', 'Thriller', 'Drama'}",6.5
+Full Circle (2023),2023-07-13,tvshow,1 Season,7.0,6.4,"{'Crime', 'Mystery', 'Drama'}",6.6
+My Life With the Walter Boys,2023-12-07,tvshow,1 Season,5.0,7.3,"{'Romance', 'Drama'}",6.6
+The Other Black Girl,2023-09-13,tvshow,1 Season,6.8,6.4,"{'Thriller', 'Comedy', 'Mystery', 'Drama'}",6.5
+Extended Family,2023-12-23,tvshow,1 Season,5.9,6.8,{'Comedy'},6.5
+Platonic,2023-05-24,tvshow,2 Seasons,7.5,6.1,"{'Comedy', 'Romance'}",6.5
 Dreaming Whilst Black,2023-07-24,tvshow,1 Season,8.5,5.6,"{'Comedy', 'Drama'}",6.5
-Who Killed Jill Dando?,2023-09-26,tvshow,1 Season,6.7,6.3,"{'Documentary', 'History', 'Mystery', 'Crime'}",6.4
-Platonic,2023-05-24,tvshow,2 Seasons,7.5,6.0,"{'Comedy', 'Romance'}",6.4
 Glamorous,2023-06-22,tvshow,1 Season,5.7,6.7,"{'Comedy', 'Drama'}",6.4
-Frasier (2023),2023-10-12,tvshow,1 Season,5.6,6.8,{'Comedy'},6.4
-Break Point (2023),2023-01-13,tvshow,2 Seasons,7.0,6.1,"{'Documentary', 'Sport'}",6.4
 Average Joe (2023),2023-06-25,tvshow,1 Season,7.3,6.0,"{'Comedy', 'Drama'}",6.4
-The Horror of Dolores Roach,2023-07-07,tvshow,1 Season,6.5,6.3,"{'Comedy', 'Horror', 'Drama'}",6.4
-Unstable,2023-03-30,tvshow,2 Seasons,6.8,6.1,{'Comedy'},6.3
-The Crowded Room,2023-06-09,tvshow,1 Season,4.8,6.9,"{'Mystery', 'Thriller', 'Drama', 'Biography', 'Crime'}",6.3
+Who Killed Jill Dando?,2023-09-26,tvshow,1 Season,6.7,6.3,"{'Documentary', 'Crime', 'History', 'Mystery'}",6.4
+A Murder at the End of the World,2023-11-14,tvshow,1 Season,7.3,6.0,"{'Thriller', 'Mystery', 'Drama'}",6.4
+Frasier (2023),2023-10-12,tvshow,1 Season,5.6,6.7,{'Comedy'},6.4
+Break Point (2023),2023-01-13,tvshow,2 Seasons,7.0,6.1,"{'Documentary', 'Sport'}",6.4
+Gen V,2023-09-28,tvshow,2 Seasons,7.3,6.0,"{'Drama', 'Action', 'Adventure', 'Comedy', 'Sci-Fi'}",6.4
+Daisy Jones & The Six,2023-03-01,tvshow,1 Season,6.2,6.5,"{'Romance', 'Music', 'Drama'}",6.4
 Animal Control,2023-02-16,tvshow,2 Seasons,6.8,6.1,{'Comedy'},6.3
-Bill Russell: Legend,2023-02-08,tvshow,1 Season,8.1,5.5,"{'Documentary', 'Biography', 'Sport'}",6.3
 Life on Our Planet,2023-10-25,tvshow,1 Season,5.7,6.6,{'Documentary'},6.3
-Bodies (2023),2023-10-19,tvshow,1 Season,6.5,6.2,"{'Sci-Fi', 'Thriller', 'Drama', 'History', 'Crime'}",6.3
-My Adventures with Superman,2023-07-06,tvshow,1 Season,8.2,5.4,"{'Sci-Fi', 'Family', 'Fantasy', 'Comedy', 'Adventure', 'Animation', 'Action'}",6.2
+The Company You Keep (2023),2023-02-19,tvshow,1 Season,6.7,6.1,"{'Crime', 'Drama'}",6.3
+Bill Russell: Legend,2023-02-08,tvshow,1 Season,8.1,5.5,"{'Documentary', 'Sport', 'Biography'}",6.3
+The Crowded Room,2023-06-09,tvshow,1 Season,4.8,7.0,"{'Drama', 'Mystery', 'Biography', 'Thriller', 'Crime'}",6.3
+My Adventures with Superman,2023-07-06,tvshow,1 Season,8.2,5.5,"{'Animation', 'Sci-Fi', 'Family', 'Action', 'Adventure', 'Comedy', 'Fantasy'}",6.3
+Rabbit Hole,2023-03-26,tvshow,1 Season,6.6,6.2,"{'Action', 'Thriller', 'Drama'}",6.3
+Mary Berry's Highland Christmas,2023-12-13,tvshow,0 Seasons,6.0,6.4,{'Reality-TV'},6.3
+School Spirits (2023),2023-03-09,tvshow,2 Seasons,6.9,6.0,"{'Fantasy', 'Mystery', 'Drama'}",6.3
+Unstable,2023-03-30,tvshow,2 Seasons,6.8,6.1,{'Comedy'},6.3
+Monarch: Legacy of Monsters,2023-11-17,tvshow,1 Season,6.8,5.9,"{'Action', 'Adventure', 'Sci-Fi'}",6.2
+The Lovers (2023),2023-09-07,tvshow,1 Season,5.9,6.4,{'Comedy'},6.2
+Black Knight (2023),2023-05-12,tvshow,1 Season,7.3,5.8,"{'Action', 'Adventure', 'Sci-Fi'}",6.2
 Survival of the Thickest,2023-07-13,tvshow,1 Season,6.6,6.0,{'Comedy'},6.2
-The Big Door Prize,2023-03-29,tvshow,2 Seasons,7.1,5.8,"{'Comedy', 'Sci-Fi', 'Drama'}",6.2
+Hijack,2023-06-28,tvshow,1 Season,6.6,6.0,"{'Thriller', 'Drama'}",6.2
 Wilderness,2023-01-01,tvshow,1 Season,5.6,6.4,"{'Thriller', 'Drama'}",6.2
+The Big Door Prize,2023-03-29,tvshow,2 Seasons,7.1,5.8,"{'Sci-Fi', 'Comedy', 'Drama'}",6.2
 Wolf Pack,2023-01-26,tvshow,1 Season,4.0,7.2,"{'Horror', 'Fantasy', 'Drama'}",6.2
-Hijack,2023-06-28,tvshow,1 Season,6.6,6.1,"{'Thriller', 'Drama'}",6.2
-Gen V,2023-09-28,tvshow,2 Seasons,7.3,5.8,"{'Sci-Fi', 'Comedy', 'Drama', 'Adventure', 'Action'}",6.2
-The Enfield Poltergeist,2023-10-27,tvshow,1 Season,6.3,6.0,"{'Documentary', 'Horror'}",6.1
-Black Knight (2023),2023-05-12,tvshow,1 Season,7.3,5.6,"{'Adventure', 'Action', 'Sci-Fi'}",6.1
-Goosebumps (2023),2023-10-13,tvshow,1 Season,6.0,6.1,"{'Adventure', 'Comedy', 'Fantasy', 'Horror'}",6.1
+Goosebumps (2023),2023-10-13,tvshow,1 Season,6.0,6.1,"{'Horror', 'Adventure', 'Fantasy', 'Comedy'}",6.1
 Marc Maron: From Bleak To Dark,2023-02-11,tvshow,0 Seasons,9.0,4.8,"{'Documentary', 'Comedy'}",6.1
+The Horror of Dolores Roach,2023-07-07,tvshow,1 Season,6.5,5.9,"{'Comedy', 'Horror', 'Drama'}",6.1
 The Reluctant Traveler,2023-02-24,tvshow,2 Seasons,6.8,5.8,"{'Documentary', 'Reality-TV'}",6.1
-The Consultant,2023-02-24,tvshow,1 Season,6.6,5.7,"{'Comedy', 'Thriller', 'Drama'}",6.0
-Waco: American Apocalypse,2023-03-22,tvshow,1 Season,7.3,5.4,"{'Documentary', 'Crime'}",6.0
-Rabbit Hole,2023-03-26,tvshow,1 Season,6.6,5.8,"{'Action', 'Thriller', 'Drama'}",6.0
+Bodies (2023),2023-10-19,tvshow,1 Season,6.5,5.9,"{'Drama', 'Crime', 'History', 'Thriller', 'Sci-Fi'}",6.1
+Culprits,2023-11-08,tvshow,1 Season,5.6,6.2,"{'Comedy', 'Thriller', 'Crime'}",6.0
 Working: What We Do All Day,2023-05-17,tvshow,1 Season,6.8,5.7,{'Documentary'},6.0
-Waco: The Aftermath,2023-04-14,tvshow,1 Season,5.2,6.2,"{'Drama', 'Thriller', 'Crime'}",5.9
-Lawmen: Bass Reeves,2023-11-05,tvshow,1 Season,6.5,5.7,"{'Western', 'Drama'}",5.9
+Waco: American Apocalypse,2023-03-22,tvshow,1 Season,7.3,5.4,"{'Documentary', 'Crime'}",6.0
+UnPrisoned,2023-03-09,tvshow,2 Seasons,7.5,5.4,{'Comedy'},6.0
+The Consultant,2023-02-24,tvshow,1 Season,6.6,5.6,"{'Comedy', 'Thriller', 'Drama'}",5.9
 Live to 100: Secrets Of The Blue Zones,2023-08-30,tvshow,1 Season,6.7,5.6,"{'Documentary', 'Adventure'}",5.9
-Based on a True Story,2023-06-08,tvshow,2 Seasons,5.8,6.0,{'Comedy'},5.9
-Hello Tomorrow!,2023-02-16,tvshow,1 Season,6.0,5.8,"{'Comedy', 'Sci-Fi', 'Drama'}",5.9
-The Rig,2023-01-05,tvshow,2 Seasons,6.9,5.5,"{'Mystery', 'Thriller', 'Sci-Fi', 'Drama'}",5.9
-Class of '09,2023-05-10,tvshow,1 Season,6.3,5.6,"{'Drama', 'Thriller', 'Crime'}",5.8
+American Born Chinese,2023-05-24,tvshow,1 Season,7.3,5.3,"{'Action', 'Adventure', 'Fantasy', 'Comedy'}",5.9
+Based on a True Story,2023-06-08,tvshow,2 Seasons,5.9,5.9,{'Comedy'},5.9
+Justified: City Primeval,2023-07-18,tvshow,1 Season,7.9,5.0,"{'Crime', 'Drama'}",5.9
+Pretty Baby: Brooke Shields,2023-04-03,tvshow,1 Season,7.1,5.4,"{'Documentary', 'Biography'}",5.9
+Waco: The Aftermath,2023-04-14,tvshow,1 Season,5.2,6.2,"{'Crime', 'History', 'Thriller', 'Drama'}",5.9
+The Rig,2023-01-05,tvshow,2 Seasons,6.9,5.5,"{'Sci-Fi', 'Thriller', 'Mystery', 'Drama'}",5.9
+Hello Tomorrow!,2023-02-16,tvshow,1 Season,6.0,5.7,"{'Sci-Fi', 'Comedy', 'Drama'}",5.8
+Kaleidoscope,2023-01-01,tvshow,1 Season,6.0,5.7,"{'Action', 'Crime', 'Thriller', 'Drama'}",5.8
 Wellmania,2023-03-29,tvshow,1 Season,7.5,5.0,"{'Comedy', 'Drama'}",5.8
-Strange Planet,2023-08-09,tvshow,1 Season,6.8,5.3,"{'Animation', 'Comedy'}",5.8
-American Born Chinese,2023-05-24,tvshow,1 Season,7.3,5.1,"{'Adventure', 'Comedy', 'Action', 'Fantasy'}",5.8
-School Spirits (2023),2023-03-09,tvshow,2 Seasons,6.9,5.4,"{'Mystery', 'Fantasy', 'Drama'}",5.8
-Kaleidoscope,2023-01-01,tvshow,1 Season,6.0,5.7,"{'Drama', 'Action', 'Thriller', 'Crime'}",5.8
-Justified: City Primeval,2023-07-18,tvshow,1 Season,7.9,4.9,"{'Drama', 'Crime'}",5.8
-Will Trent,2023-01-03,tvshow,2 Seasons,7.1,5.3,"{'Drama', 'Crime'}",5.8
-Beacon 23,2023-11-12,tvshow,2 Seasons,5.9,5.6,"{'Mystery', 'Thriller', 'Sci-Fi', 'Drama'}",5.7
+Class of '09,2023-05-10,tvshow,1 Season,6.3,5.6,"{'Crime', 'Thriller', 'Drama'}",5.8
+Beacon 23,2023-11-12,tvshow,2 Seasons,5.9,5.8,"{'Sci-Fi', 'Thriller', 'Mystery', 'Drama'}",5.8
+Lawmen: Bass Reeves,2023-11-05,tvshow,1 Season,6.6,5.4,"{'Western', 'Drama'}",5.8
 That '90s Show,2023-01-19,tvshow,2 Seasons,5.8,5.7,"{'Comedy', 'Romance', 'Drama'}",5.7
-Burden of Proof,2023-06-06,tvshow,1 Season,7.4,5.0,"{'Documentary', 'Thriller', 'Crime'}",5.7
-All the Light We Cannot See,2023-11-02,tvshow,1 Season,3.6,6.4,"{'History', 'War', 'Drama'}",5.6
-UnPrisoned,2023-03-09,tvshow,2 Seasons,7.5,4.8,{'Comedy'},5.6
-The Changeling,2023-09-08,tvshow,1 Season,6.4,5.2,"{'Horror', 'Fantasy', 'Thriller', 'Drama'}",5.6
+The Buccaneers (2023),2023-11-07,tvshow,3 Seasons,7.1,5.1,{'Drama'},5.7
+Will Trent,2023-01-03,tvshow,2 Seasons,7.1,5.1,"{'Crime', 'Drama'}",5.7
+Burden of Proof,2023-06-06,tvshow,1 Season,7.4,5.0,"{'Documentary', 'Crime', 'Thriller'}",5.7
 MH370: The Plane That Disappeared,2023-03-08,tvshow,1 Season,7.1,4.9,{'Documentary'},5.6
-Krapopolis,2023-09-24,tvshow,2 Seasons,6.0,5.3,"{'Animation', 'Comedy'}",5.5
-Castlevania: Nocturne,2023-09-28,tvshow,1 Season,7.7,4.6,"{'Fantasy', 'Thriller', 'Adventure', 'Animation', 'Action', 'Horror'}",5.5
-The Buccaneers (2023),2023-11-07,tvshow,3 Seasons,7.1,4.8,{'Drama'},5.5
+Strange Planet,2023-08-09,tvshow,1 Season,6.8,5.1,"{'Animation', 'Comedy'}",5.6
+The Changeling,2023-09-08,tvshow,1 Season,6.4,5.2,"{'Horror', 'Fantasy', 'Thriller', 'Drama'}",5.6
 Ed Sheeran: The Sum of It All,2023-05-03,tvshow,1 Season,8.0,4.4,"{'Documentary', 'Biography', 'Music'}",5.5
+Castlevania: Nocturne,2023-09-28,tvshow,1 Season,7.7,4.6,"{'Animation', 'Action', 'Adventure', 'Horror', 'Thriller', 'Fantasy'}",5.5
+Krapopolis,2023-09-24,tvshow,3 Seasons,6.0,5.3,"{'Animation', 'Comedy', 'Fantasy'}",5.5
+Obliterated,2023-11-30,tvshow,1 Season,4.6,5.9,"{'Action', 'Comedy', 'Drama'}",5.5
+The Enfield Poltergeist,2023-10-27,tvshow,1 Season,6.3,5.2,"{'Documentary', 'Horror'}",5.5
 Wanted: The Escape of Carlos Ghosn,2023-08-25,tvshow,1 Season,8.1,4.3,{'Documentary'},5.4
-Star Wars: Ahsoka,2023-08-22,tvshow,2 Seasons,6.8,4.8,"{'Sci-Fi', 'Fantasy', 'Drama', 'Adventure', 'Action'}",5.4
+Star Wars: Ahsoka,2023-08-22,tvshow,2 Seasons,6.8,4.8,"{'Drama', 'Action', 'Adventure', 'Fantasy', 'Sci-Fi'}",5.4
+The Traitors,2023-01-12,tvshow,2 Seasons,7.6,4.5,"{'Reality-TV', 'Game-Show'}",5.4
 How to Become a Cult Leader,2023-07-28,tvshow,1 Season,5.2,5.5,"{'Documentary', 'Crime'}",5.4
-The Traitors,2023-01-12,tvshow,2 Seasons,7.6,4.5,"{'Reality-TV', 'Thriller'}",5.4
-Black Cake,2023-11-01,tvshow,1 Season,6.9,4.8,"{'Mystery', 'History', 'Thriller', 'Drama'}",5.4
-Up Here,2023-03-24,tvshow,1 Season,5.8,5.2,"{'Comedy', 'Musical', 'Romance'}",5.4
-The Power,2023-03-30,tvshow,1 Season,6.6,4.9,"{'Fantasy', 'Sci-Fi', 'Drama'}",5.4
-The Continental: From the World of John Wick,2023-09-01,tvshow,1 Season,5.3,5.4,"{'Action', 'Thriller', 'Crime'}",5.4
-Harlan Coben's Shelter,2023-07-12,tvshow,1 Season,6.5,4.8,"{'Mystery', 'Drama', 'Thriller', 'Crime'}",5.3
-Obliterated,2023-11-30,tvshow,1 Season,4.6,5.5,"{'Comedy', 'Action', 'Drama'}",5.2
-Special Ops: Lioness,2023-07-23,tvshow,1 Season,5.6,5.0,"{'Action', 'Thriller', 'Drama'}",5.2
-Who Is Erin Carter?,2023-08-24,tvshow,1 Season,6.2,4.8,"{'Adventure', 'Action', 'Thriller', 'Crime'}",5.2
-Bupkis,2023-05-04,tvshow,2 Seasons,6.7,4.4,{'Comedy'},5.1
-Alert: Missing Persons Unit,2023-01-08,tvshow,2 Seasons,4.8,5.3,"{'Mystery', 'Thriller', 'Drama', 'Action', 'Crime'}",5.1
-Pretty Baby: Brooke Shields,2023-04-03,tvshow,1 Season,7.1,4.3,"{'Documentary', 'Biography'}",5.1
-Found,2023-10-03,tvshow,2 Seasons,4.9,5.2,{'Drama'},5.1
-The Swarm,2023-02-22,tvshow,1 Season,5.4,4.9,"{'Mystery', 'Thriller', 'Sci-Fi', 'Drama'}",5.1
-Queen Charlotte: A Bridgerton Story,2023-05-04,tvshow,1 Season,7.6,3.9,"{'History', 'Romance', 'Drama'}",5.0
-FUBAR,2023-05-25,tvshow,2 Seasons,4.8,4.9,"{'Adventure', 'Comedy', 'Action', 'Thriller'}",4.9
-The Muppets Mayhem,2023-05-10,tvshow,1 Season,7.0,4.0,"{'Music', 'Comedy', 'Musical', 'Family'}",4.9
-The Full Monty,2023-06-14,tvshow,1 Season,5.8,4.3,"{'Comedy', 'Drama'}",4.8
-Mayfair Witches,2023-01-05,tvshow,2 Seasons,4.7,4.8,"{'Horror', 'Fantasy', 'Drama'}",4.8
+Up Here,2023-03-24,tvshow,1 Season,5.8,5.2,"{'Romance', 'Comedy', 'Musical'}",5.4
+Black Cake,2023-11-01,tvshow,1 Season,6.9,4.8,"{'Thriller', 'History', 'Mystery', 'Drama'}",5.4
+The Continental: From the World of John Wick,2023-09-01,tvshow,1 Season,5.3,5.4,"{'Action', 'Crime', 'Thriller'}",5.4
+All the Light We Cannot See,2023-11-02,tvshow,1 Season,3.6,6.2,"{'History', 'War', 'Drama'}",5.4
+The Power,2023-03-30,tvshow,1 Season,6.6,4.9,"{'Sci-Fi', 'Fantasy', 'Drama'}",5.4
+Special Ops: Lioness,2023-07-23,tvshow,1 Season,5.6,5.2,"{'Action', 'Thriller', 'Drama'}",5.3
+The Muppets Mayhem,2023-05-10,tvshow,1 Season,7.0,4.4,"{'Musical', 'Comedy', 'Family', 'Music'}",5.2
+Harlan Coben's Shelter,2023-07-12,tvshow,1 Season,6.5,4.6,"{'Thriller', 'Crime', 'Mystery', 'Drama'}",5.2
+Found,2023-10-03,tvshow,2 Seasons,4.9,5.2,"{'Crime', 'Mystery', 'Drama'}",5.1
+Alert: Missing Persons Unit,2023-01-08,tvshow,2 Seasons,4.8,5.3,"{'Drama', 'Action', 'Mystery', 'Crime', 'Thriller'}",5.1
+The Swarm,2023-02-22,tvshow,1 Season,5.4,4.9,"{'Sci-Fi', 'Thriller', 'Mystery', 'Drama'}",5.1
+FUBAR,2023-05-25,tvshow,2 Seasons,4.8,4.9,"{'Action', 'Adventure', 'Thriller', 'Comedy'}",4.9
+Berlin,2023-12-29,tvshow,1 Season,4.0,5.3,"{'Drama', 'Action', 'Mystery', 'Crime', 'Thriller'}",4.9
+Who Is Erin Carter?,2023-08-24,tvshow,1 Season,6.2,4.4,"{'Action', 'Adventure', 'Thriller', 'Crime'}",4.9
+"XO, Kitty",2023-05-18,tvshow,2 Seasons,6.8,4.1,"{'Comedy', 'Romance', 'Drama'}",4.9
+Bupkis,2023-05-04,tvshow,2 Seasons,6.7,4.2,{'Comedy'},4.9
+Queen Charlotte: A Bridgerton Story,2023-05-04,tvshow,1 Season,7.6,3.7,"{'History', 'Romance', 'Drama'}",4.9
+007: Road to a Million,2023-11-09,tvshow,1 Season,5.8,4.3,"{'Reality-TV', 'Adventure', 'Game-Show'}",4.8
+Mayfair Witches,2023-01-05,tvshow,2 Seasons,4.7,4.9,"{'Horror', 'Fantasy', 'Drama'}",4.8
 Transatlantic,2023-04-07,tvshow,1 Season,6.4,4.1,"{'History', 'Drama'}",4.8
 Liaison,2023-02-24,tvshow,1 Season,4.8,4.6,"{'Thriller', 'Drama'}",4.7
-Painkiller,2023-08-10,tvshow,1 Season,5.6,4.1,"{'Drama', 'Crime'}",4.6
+Accused (2023),2023-01-22,tvshow,2 Seasons,6.0,4.0,"{'Crime', 'Drama'}",4.6
+Painkiller,2023-08-10,tvshow,1 Season,5.6,4.1,"{'Crime', 'Drama'}",4.6
 The Walking Dead: Dead City,2023-06-15,tvshow,2 Seasons,5.7,4.1,"{'Adventure', 'Horror', 'Thriller', 'Drama'}",4.6
-Arnold,2023-06-07,tvshow,1 Season,5.9,4.0,"{'Documentary', 'Biography'}",4.6
-"XO, Kitty",2023-05-18,tvshow,2 Seasons,6.8,3.6,"{'Comedy', 'Romance', 'Drama'}",4.6
+Arnold,2023-06-07,tvshow,1 Season,5.9,4.1,"{'Documentary', 'Biography'}",4.6
 Great Expectations (2023),2023-03-26,tvshow,1 Season,5.2,4.3,"{'History', 'Drama'}",4.6
-Citadel,2023-04-28,tvshow,2 Seasons,5.1,4.4,"{'Action', 'Thriller', 'Drama'}",4.6
-Accused (2023),2023-01-22,tvshow,2 Seasons,6.0,4.0,"{'Drama', 'Crime'}",4.6
-The Watchful Eye,2023-01-30,tvshow,1 Season,5.7,4.0,"{'Mystery', 'Thriller', 'Drama'}",4.5
-007: Road to a Million,2023-11-09,tvshow,1 Season,5.8,4.0,"{'Adventure', 'Reality-TV', 'Game-Show'}",4.5
-Secret Invasion,2023-06-21,tvshow,1 Season,6.3,3.6,"{'Mystery', 'Sci-Fi', 'Thriller', 'Drama', 'Adventure', 'Action'}",4.4
-"History of the World, Part II",2023-03-06,tvshow,1 Season,6.4,3.6,"{'History', 'Comedy'}",4.4
-Goliath (2023),2023-07-14,tvshow,1 Season,7.3,3.2,"{'Documentary', 'Biography', 'Sport'}",4.4
-The Last Thing He Told Me,2023-04-14,tvshow,1 Season,4.9,4.1,"{'Mystery', 'Thriller', 'Drama'}",4.3
-Skull Island,2023-06-22,tvshow,1 Season,5.1,3.9,"{'Drama', 'Adventure', 'Animation', 'Action', 'Romance'}",4.3
-City on Fire,2023-05-12,tvshow,1 Season,4.5,3.9,"{'Mystery', 'Drama', 'Crime'}",4.1
-Agent Elvis,2023-03-17,tvshow,1 Season,6.5,3.1,"{'Comedy', 'Thriller', 'Animation', 'Action', 'Crime'}",4.1
-True Lies (2023),2023-02-23,tvshow,1 Season,4.9,3.7,"{'Adventure', 'Comedy', 'Action', 'Thriller'}",4.1
-Obsession (2023),2023-04-13,tvshow,1 Season,3.7,3.8,"{'Mystery', 'Romance', 'Thriller', 'Drama'}",3.8
-Squid Game: The Challenge,2023-11-22,tvshow,2 Seasons,5.1,3.3,"{'Reality-TV', 'Game-Show'}",3.8
-Culprits,2023-11-08,tvshow,1 Season,5.6,3.1,"{'Comedy', 'Thriller', 'Crime'}",3.8
+"History of the World, Part II",2023-03-06,tvshow,1 Season,6.4,3.7,"{'Comedy', 'History'}",4.5
+Citadel,2023-04-28,tvshow,2 Seasons,5.1,4.3,"{'Action', 'Thriller', 'Drama'}",4.5
+The Watchful Eye,2023-01-30,tvshow,1 Season,5.7,4.0,"{'Thriller', 'Mystery', 'Drama'}",4.5
+True Lies (2023),2023-02-23,tvshow,1 Season,4.9,4.3,"{'Action', 'Adventure', 'Thriller', 'Comedy'}",4.5
+Secret Invasion,2023-06-21,tvshow,1 Season,6.3,3.6,"{'Drama', 'Action', 'Adventure', 'Mystery', 'Thriller', 'Sci-Fi'}",4.4
+Goliath (2023),2023-07-14,tvshow,1 Season,7.3,3.2,"{'Documentary', 'Sport', 'Biography'}",4.4
+The Last Thing He Told Me,2023-04-14,tvshow,1 Season,4.9,4.1,"{'Thriller', 'Mystery', 'Drama'}",4.3
+Skull Island,2023-06-22,tvshow,1 Season,5.1,3.9,"{'Animation', 'Romance', 'Drama', 'Action', 'Adventure'}",4.3
+Fatal Attraction (2023),2023-04-30,tvshow,1 Season,4.7,4.0,"{'Thriller', 'Drama'}",4.2
+The Full Monty,2023-06-14,tvshow,1 Season,5.8,3.4,"{'Comedy', 'Drama'}",4.1
+City on Fire,2023-05-12,tvshow,1 Season,4.5,3.9,"{'Crime', 'Mystery', 'Drama'}",4.1
+Agent Elvis,2023-03-17,tvshow,1 Season,6.5,2.8,"{'Animation', 'Action', 'Comedy', 'Thriller', 'Crime'}",3.9
+Squid Game: The Challenge,2023-11-22,tvshow,2 Seasons,5.1,3.2,"{'Reality-TV', 'Game-Show'}",3.8
 Hannah Gadsby: Something Special,2023-05-09,tvshow,0 Seasons,8.0,1.9,"{'Documentary', 'Comedy'}",3.7
-Grease: Rise of the Pink Ladies,2023-04-06,tvshow,1 Season,5.9,2.6,"{'Comedy', 'Musical', 'Romance'}",3.6
-The Ark,2023-02-01,tvshow,2 Seasons,5.0,3.0,"{'Mystery', 'Sci-Fi', 'Drama'}",3.6
-The 1619 Project,2023-01-26,tvshow,1 Season,6.7,2.2,"{'Documentary', 'History'}",3.6
+Obsession (2023),2023-04-13,tvshow,1 Season,3.7,3.7,"{'Romance', 'Thriller', 'Mystery', 'Drama'}",3.7
+The Winter King,2023-08-20,tvshow,1 Season,5.9,2.6,"{'Fantasy', 'Drama'}",3.6
+The Ark,2023-02-01,tvshow,2 Seasons,5.0,3.0,"{'Sci-Fi', 'Mystery', 'Drama'}",3.6
+Grease: Rise of the Pink Ladies,2023-04-06,tvshow,1 Season,5.9,2.6,"{'Romance', 'Comedy', 'Musical'}",3.6
+Extrapolations,2023-03-17,tvshow,1 Season,5.6,2.7,"{'Mystery', 'Drama'}",3.6
+Night Court (2023),2023-01-17,tvshow,2 Seasons,6.2,2.4,{'Comedy'},3.5
+Mulligan,2023-05-12,tvshow,1 Season,4.8,2.9,"{'Animation', 'Comedy', 'Sci-Fi'}",3.5
+The 1619 Project,2023-01-26,tvshow,1 Season,6.7,2.1,"{'Documentary', 'History'}",3.5
 Depp v. Heard,2023-05-21,tvshow,1 Season,4.8,2.8,"{'Documentary', 'Crime'}",3.4
-Extrapolations,2023-03-17,tvshow,1 Season,5.6,2.4,"{'Mystery', 'Drama'}",3.4
-The Winter King,2023-08-20,tvshow,1 Season,6.0,2.3,"{'Fantasy', 'Drama'}",3.4
-Gotham Knights,2023-03-14,tvshow,1 Season,4.1,3.0,"{'Mystery', 'Sci-Fi', 'Thriller', 'Drama', 'Action', 'Crime'}",3.3
-Mulligan,2023-05-12,tvshow,1 Season,4.8,2.4,"{'Animation', 'Comedy', 'Sci-Fi'}",3.1
-Night Court (2023),2023-01-17,tvshow,2 Seasons,6.2,1.7,{'Comedy'},3.0
-African Queens: Njinga,2023-02-15,tvshow,1 Season,6.9,0.9,"{'Documentary', 'History'}",2.7
-Saint X,2023-04-26,tvshow,1 Season,5.1,1.6,"{'Mystery', 'Thriller', 'Drama'}",2.6
+Gotham Knights,2023-03-14,tvshow,1 Season,4.1,3.0,"{'Drama', 'Action', 'Mystery', 'Crime', 'Thriller', 'Sci-Fi'}",3.3
+African Queens: Njinga,2023-02-15,tvshow,1 Season,6.9,0.9,"{'Documentary', 'History', 'Drama'}",2.7
+Saint X,2023-04-26,tvshow,1 Season,5.1,1.6,"{'Thriller', 'Mystery', 'Drama'}",2.6
 John Carpenter's Suburban Screams,2023-10-13,tvshow,1 Season,3.0,2.3,{'Horror'},2.5
-Velma,2023-01-05,tvshow,2 Seasons,5.4,0.5,"{'Mystery', 'Comedy', 'Adventure', 'Animation', 'Crime', 'Horror'}",2.0
+Velma,2023-01-05,tvshow,2 Seasons,5.4,0.5,"{'Animation', 'Adventure', 'Horror', 'Mystery', 'Comedy', 'Crime'}",2.0
 The Idol (2023),2023-06-04,tvshow,1 Season,2.7,1.5,"{'Music', 'Drama'}",1.9
 MILF Manor,2023-01-15,tvshow,1 Season,1.6,2.0,{'Reality-TV'},1.9
-Queen Cleopatra,2023-05-10,tvshow,1 Season,4.5,0.1,{'Documentary'},1.4
+Queen Cleopatra,2023-05-10,tvshow,1 Season,4.5,0.1,"{'Documentary', 'Drama'}",1.4
