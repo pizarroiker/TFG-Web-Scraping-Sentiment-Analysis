@@ -2,17 +2,19 @@ import scrapy
 import re
 
 class MovieSpider(scrapy.Spider):
-    name = "movie_spider"
-    user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    name = "movie_spider"                   
+    user_agent = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'
+    referer = 'https://www.metacritic.com/'
+    headers = {'User-Agent': user_agent, 'Referer': referer}
     data = []
 
     def __init__(self, year):
         self.year = year
-        self.start_urls = [f'https://www.metacritic.com/browse/movie/all/all/{self.year}/new/?page={page}' for page in range(1, 30)]
+        self.start_urls = [f'https://www.metacritic.com/browse/movie/all/all/{self.year}/new/?page={page}' for page in range(1, 50)]
     
     def start_requests(self):
         for url in self.start_urls:
-            yield scrapy.Request(url, callback=self.parse, headers={'User-Agent': self.user_agent})
+            yield scrapy.Request(url, callback=self.parse, headers=self.headers)
 
     def parse(self, response):
         for item in response.css('div.c-finderProductCard'):
@@ -25,7 +27,7 @@ class MovieSpider(scrapy.Spider):
             return response.css(selector).get('').strip()
 
         try:
-            title_selector = 'div.c-productHero_title div::text'
+            title_selector = 'div.c-productHero_title h1::text'
             metascore_selector = 'div.c-siteReviewScore_background-critic_medium span[data-v-4cdca868]::text'
             user_score_selector = 'div.c-siteReviewScore_background-user span[data-v-4cdca868]::text'
             release_date_selector = 'div.c-movieDetails_sectionContainer span.g-text-bold:contains("Release Date") + span::text'
@@ -64,6 +66,3 @@ class MovieSpider(scrapy.Spider):
                 self.data.append(movie_data)
         except ValueError as e:
             self.log(f"Error processing {response.url}: {str(e)}")
-
-
-

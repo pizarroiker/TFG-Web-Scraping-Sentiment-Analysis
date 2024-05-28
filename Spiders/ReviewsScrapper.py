@@ -1,9 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from langdetect import detect
-from langdetect.lang_detect_exception import LangDetectException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from langdetect import detect
+from langdetect.lang_detect_exception import LangDetectException
 
 class ReviewsScraper:
 
@@ -11,6 +11,7 @@ class ReviewsScraper:
         self.urls = urls
         self.op = op
         self.score_selector = self.get_score_selector()
+        self.referer_url = 'https://www.metacritic.com/'
 
     def get_score_selector(self):
         if self.op == "user":
@@ -18,9 +19,9 @@ class ReviewsScraper:
         elif self.op == "critic":
             return 'div.c-siteReviewScore_background-critic_medium span[data-v-4cdca868]'
 
-    def scrape_reviews(self, url, driver, max_reviews=20, target_language='en'):
+    def scrape_reviews(self, url, driver, max_reviews=30, target_language='en'):
         driver.get(url)
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div.c-siteReview.g-bg-gray10')))
+        WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CSS_SELECTOR, 'div.c-siteReview.g-bg-gray10')))
         reviews = []
         review_elements = driver.find_elements(By.CSS_SELECTOR,'div.c-siteReview.g-bg-gray10')
         
@@ -58,11 +59,11 @@ class ReviewsScraper:
         options.add_argument("--disable-gpu")
         options.add_argument("--disable-extensions")
         options.add_argument("--blink-settings=imagesEnabled=false")
+        options.add_argument(f"--referer={self.referer_url}")
         return options
 
     def scrape_urls(self):
-        with webdriver.Chrome(options=self.configure_webdriver()) as driver:
+        options = self.configure_webdriver()
+        with webdriver.Chrome(options=options) as driver:
             scraped_urls = [(url, self.scrape_reviews(url, driver)) for url in self.urls]
         return scraped_urls
-
-
