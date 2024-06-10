@@ -48,7 +48,7 @@ def process_spider_data(data, columns_to_drop):
     # Convierte las puntuaciones a números y escala el metascore a un numero entre el 1 y el 10
     data['metascore'] = pd.to_numeric(data['metascore'], errors='coerce') / 10
     data['user_score'] = pd.to_numeric(data['user_score'], errors='coerce')
-     # Calcula una puntuación ponderada y la añade al DataFrame
+    # Calcula una puntuación ponderada y la añade al DataFrame
     data['weighted_score'] = round((data['metascore'] * 0.3) + (data['user_score'] * 0.7), 1)
     # Ordena los datos y devuelve los mejores elementos
     return data.sort_values(by='weighted_score', ascending=False)
@@ -62,7 +62,7 @@ def merge_dataframes(df1, df2):
 
 # Función para raspar reseñas desde URLs proporcionadas
 def scrape_reviews(urls, review_type):
-     # Inicializa el raspador de reseñas con las URLs y el tipo de reseña (usuario o crítico)
+    # Inicializa el raspador de reseñas con las URLs y el tipo de reseña (usuario o crítico)
     scraper = ReviewsScraper(urls, review_type)
     # Realiza el scraping y retorna los resultados como un DataFrame
     return pd.DataFrame(scraper.scrape_urls(), columns=[f'{review_type}_reviews_url', f'{review_type}_reviews'])
