@@ -16,9 +16,9 @@ class ReviewsScraper:
     def get_score_selector(self):
         # Retorna el selector CSS adecuado según el tipo de operación
         if self.op == "user":
-            return 'div.c-siteReviewScore_background-user span[data-v-4cdca868]'
+            return 'div.c-siteReviewScore_background-user span[data-v-38f51ed3]'
         elif self.op == "critic":
-            return 'div.c-siteReviewScore_background-critic_medium span[data-v-4cdca868]'
+            return 'div.c-siteReviewScore_background-critic_medium span[data-v-38f51ed3]'
 
     def scrape_reviews(self, url, driver, max_reviews=30, target_language='en'):
         driver.get(url)  # Abre la URL con el navegador
